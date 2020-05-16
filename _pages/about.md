@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am an Undergraduate at [BITS Pilani Goa Campus](https://www.bits-pilani.ac.in/Goa/index.aspx) and am pursuing a major in Computer Science. My field of research is **Natural Language Processing, Speech Processing, Discrete Math and Graph Theory**. I am extensively exploring the areas of *Natural Language Understanding, Semantic Evaluation, Bias in Natural Language Processing and Adversial Attacks on NLP and Speech Processing systems*.
+I am an Undergraduate at [BITS Pilani Goa Campus](https://www.bits-pilani.ac.in/Goa/index.aspx) and am pursuing a major in Computer Science. My field of research is **Natural Language Processing, Speech Processing, Discrete Math and Graph Theory**. I am extensively exploring the areas of *Natural Language Understanding, Semantic Evaluation, Bias in Natural Language Processing and Adversarial Attacks on NLP and Speech Processing systems*.
 
-Currently I am a research and development intern at [MIDAS](http://midas.iiitd.edu.in/) Labs and am submitting a Research Paper in [SemEval-2020 Task-11](https://propaganda.qcri.org/semeval2020-task11/) on sequence labeling and multi-classification on a highly granular task and working on a few research projects under the [CS Department, BITS Goa](https://www.bits-pilani.ac.in/goa/ComputerScienceInformationsSystems/ComputerScienceandInformationSystems).
+Currently I am a research and development intern at [MIDAS](http://midas.iiitd.edu.in/) Labs have submitted a Research Paper in [SemEval-2020 Task-11](https://propaganda.qcri.org/semeval2020-task11/) on sequence labeling and multi-classification on a highly granular task and working on a few research projects under the [CS Department, BITS Goa](https://www.bits-pilani.ac.in/goa/ComputerScienceInformationsSystems/ComputerScienceandInformationSystems).
 
 
 I am also a competitive programming enthusiast and am a Purple coder on [Codechef](https://www.codechef.com/users/someshsingh22) and Specialist on [Codeforces](https://codeforces.com/profile/someshsingh22).

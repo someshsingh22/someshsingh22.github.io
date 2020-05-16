@@ -1,0 +1,257 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://someshsingh22.github.io/}{\Large Somesh Singh}} & Email : \href{mailto:f20180175@goa.bits-pilani.ac.in}{f20180175@goa.bits-pilani.ac.in}\\
+  \href{https://someshsingh22.github.io/}{https://someshsingh22.github.io/} & Mobile :  +91 9140827410 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {Birla Institute of Technology and Science}{Goa, India}
+      {Bachelor of Engineering in Computer Science}{Aug. 2018 - Present}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Research Projects}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Detection of Propaganda Techniques in News Articles}{Aug 2019 - Present}
+      {International Workshop on Semantic Evaluation 2020}{}
+      \resumeItemListStart
+        \resumeItem{Supervisor}
+          {Professor Swati Agarwal, Dept. of Computer Science, BITS Goa}
+        \resumeItem{Description}
+          {Submitting a research paper on 'Task 11 : Detection of Propaganda Techniques in News Articles' shared-task listed in 
+the SemEval 2020 workshop, currently ranked 16th on the task leaderboard. Developing new methodologies for
+sequence labelling \& multi-classification based Propaganda detection. Trying to develop interpretable models
+for this high granularity task}
+      \resumeItemListEnd
+      
+     \resumeSubheading
+      {Detection of Abusive Content in Indian Languages}{Dec 2019 - Present}
+      {BITS Pilani Goa Campus}{}
+      \resumeItemListStart
+        \resumeItem{Supervisor}
+          {Professor Swati Agarwal, Dept. of Computer Science, BITS Goa}
+        \resumeItem{Description}
+          {Research project on detection of abuse in texts of different regional languages of India, and code switched languages. Developing new methodologies for abuse detection based on binary classification.}
+      \resumeItemListEnd
+      
+     \resumeSubheading
+      {Detection of Gender Bias in Indian Languages}{Dec 2019 - Present}
+      {BITS Pilani Goa Campus}{}
+      \resumeItemListStart
+        \resumeItem{Supervisor}
+          {Professor Basavadatta Mitra, Dept. of Humanity and Social Sciences, BITS Goa}
+        \resumeItem{Description}
+          {Student Oriented Research Project on detection of gender bias in Hindi and some regional languages of India, building an annotation system for identifying gender ambiguous pronouns and developing novel models that can de-bias them.}
+         \resumeItemListEnd
+          
+    \resumeSubheading
+      {An Impact Evaluation for Enhanced Educational Outcomes}{Feb 2020 - March 2020}
+      {International Conference On Teaching and Rehabilitation Of The Deaf}{IIT Roorkee}
+      \resumeItemListStart
+        \resumeItem{Supervisors}
+          {\\Professor Basavadatta Mitra, Dept. of Humanity and Social Sciences, BITS Goa,
+          \\ Professor Arfaat Sofi, Dept. of Economics, BITS Goa}
+        \resumeItem{Description}
+          {Co Author, working on a Social Research paper to analyse the impact of various policies and the current state of educational institutions, curriculum, infrastructure among others on the educational outcome of the selected population in India viz. the disabled within the ambit of inclusive quality education for all, we use the residuals from linear and power regressions to depict the variation of literacy with Hearing Disabilities cross culturally.}
+          \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+    
+%-----------PROJECTS-----------------
+\section{Other Projects}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {SHERLOCKED - Text Generation using Deep Neural Netorks}{Jan 2019}
+      {Independent Project}{}
+      \resumeItemListStart
+        \resumeItem{Description}
+          {Word based text generation models based on different types of models like Stacked-LSTMs, Transformer Architectures, GANs and VAEs}
+      \resumeItemListEnd
+    
+    \resumeSubheading
+      {Reddit Flair Detector - Webapp }{Apr 2020}
+      {Independent Project}{}
+      \resumeItemListStart
+        \resumeItem{Description}
+          {An end to end web-app for extraction of posts from the India sub-reddit and detect its flair, with an automated endpoint for POST and GET queries }
+      \resumeItemListEnd
+      
+     \resumeSubheading
+      {Adversarial Attack on simple Speech to Text Engine NNs }{January 2019 - Present}
+      {Independent Project}{}
+      \resumeItemListStart
+        \resumeItem{Description}
+                {Implementation of DNN based Speech to Text Engines on TensorFlow Speech Commands Data-set and analyzing their vulnerability to adversarial attacks.}
+      \resumeItemListEnd
+          
+    \resumeSubheading
+     {Reinforcement Learning Snake Tutorial}{May 2019}
+     {Independent Project}{}
+      \resumeItemListStart
+        \resumeItem{Description}
+      {A tutorial series on implementation of Reinforcement Learning Models to play the game snake from DNN Q Learning Systems to Genetic Algorithms.}
+          \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+    
+
+%
+%-----------PROJECTS-----------------
+\section{Leadership \& Teaching}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Teaching Assistant}
+    {Teaching Assistant (FDCM) for CS F111, Introduction to Computer Programming, BITS Goa}
+    \resumeSubItem{Mentor}
+   {Introduction to Machine Learning \& Deep Learning — Center for Technical Education, BPGC}
+    \resumeSubItem{Mentor}
+   {Introduction to Competitive Coding — Center for Technical Education, BPGC}
+  \resumeSubHeadingListEnd
+
+%
+
+%-----------PROJECTS-----------------
+\section{Team Work, Management}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Events and Initiatives Head}
+   {Position of Responsibility for managing all the Events and new collaborations with clubs, departments and companies under Prof Bharat M. Deshpande, Dept. of Computer Science BITS Goa}  
+
+    \resumeSubItem{TechWeekend Head}
+   {Position of Responsibility for TechWeekend an annual series of contests held by Center for Technical Education, Under Prof Bharat M. Deshpande, Dept. of Computer Science BITS Goa}
+   
+ \resumeSubItem{Organizer}
+   {Organized three hackathons as the head, which consists of more than twenty competitions from different fields including Machine Learning, Competitive Coding, Robotics and Development Hackathons.}
+  \resumeSubHeadingListEnd
+%
+
+%-----------PROJECTS-----------------
+\section{Societies}
+  \resumeSubHeadingListStart
+            \resumeSubItem{Purple Coder (Max 1834)}
+    {Codechef : someshsingh22}
+    
+                \resumeSubItem{Algorithm Specialist (Max 1429)}
+    {Codeforces : someshsingh22}
+    
+        \resumeSubItem{Member}
+    {Society for Artificial Intelligence \& Deep Learning, BITS Goa}
+    
+    \resumeSubItem{Member}
+    {AlgoManiax (A competitive coding club), BITS Goa}
+    
+  \resumeSubHeadingListEnd
+%
+
+
+%-----------PROJECTS-----------------
+\section{Course Work}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Completed}
+   {Discrete Structures in Computer Science, Object Oriented Programming, Logic in Computer Science, Multivariate Calculus, Linear Algebra \& Complex Analysis, Ordinary Differential Equations, Probability \& Statistics, Computer Programming, Digital Design}
+    \resumeSubItem{Ongoing}
+    {Data Structures and Algorithms, Database Management System, Microporocessors and Interfacing}
+
+    
+  \resumeSubHeadingListEnd
+
+%
+\section{Research Interests}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Natural Language Processing and Speech Processing}
+   {Semantic Evaluation, Bias in NLP, Speech Detection, Adversarial attacks for NLP and Speech}
+    \resumeSubItem{Data Structures and Algorithms}
+    {Discrete Mathematics, Graph Theory, Fast Fourier Transformation, Dynamic Programming, Greedy Algorithms and Optimization}
+  \resumeSubHeadingListEnd
+%
+
+%
+\section{Other Scholastic Achievements}
+  \resumeSubHeadingListStart
+    \resumeSubItem{NSEC - Homi Bhabha Centre for Science Education}
+   {National Scholar (MAS) in National Standard Examination of Chemistry conducted by HBSCE (Homi Bhabha Centre for Science Education)}
+  \resumeSubHeadingListEnd
+%
+
+\end{document}
