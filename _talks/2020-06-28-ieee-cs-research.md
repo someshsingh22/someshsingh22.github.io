@@ -12,7 +12,7 @@ I am a second-year Computer Science Undergrad at BITS Pilani. Recently, I publis
 
 This talk is divided into three segments, this part gives an introduction to undergraduates who wish to pursue research. The other two parts are the guide to publishing a paper and the presentation of my work, which are given in separate blogs as given below.
 
-[Part 2](): Guide to publish a paper
+[Part 2](https://someshsingh22.github.io//posts/2020/06/publishing-papers/): Guide to publish a paper
 [Part 3](https://arxiv.org/abs/2006.00593): BPGC at SemEval-2020 Task 11
 
 #### Disclaimer
@@ -31,4 +31,4 @@ Look into your interests and explore the fields you like before deciding to vent
 
 **Patience**, Research projects demand a lot of patience, typically between three months and a year after completing your project. For our publication, we finished our project in December and received the authorship notification in the last week of June. Therefore you must focus and work for several months.
 
-Next we discuss on how to publish a paper [Guide to publish a paper]() and presentation of our [paper](https://arxiv.org/abs/2006.00593).
+Next we discuss on how to publish a paper [Guide to publish a paper](https://someshsingh22.github.io//posts/2020/06/publishing-papers/) and presentation of our [paper](https://arxiv.org/abs/2006.00593).
