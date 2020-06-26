@@ -5,15 +5,8 @@ permalink: /publication/2020-05-31-bpgc-at-semeval-2020
 excerpt: 'News Propaganda, High granularity, Imbalanced Classification, Contextual Embeddings'
 date: 2020-05-31
 venue: 'SemEval-2020 International Workshop on Semantic Evaluation Sponsored by SIGLEX'
-paperurl: 'https://128.84.21.199/abs/2006.00593'
-citation: '@misc{patil2020bpgc,
-    title={BPGC at SemEval-2020 Task 11: Propaganda Detection in News Articles with Multi-Granularity Knowledge Sharing and Linguistic Features based Ensemble Learning},
-    author={Rajaswa Patil and Somesh Singh and Swati Agarwal},
-    year={2020},
-    eprint={2006.00593},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
-}'
+paperurl: 'https://arxiv.org/abs/2006.00593'
+citation: 'patil2020bpgc'
 
 ---
 
