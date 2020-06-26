@@ -10,11 +10,8 @@ redirect_from:
 
 I am an Undergraduate at [BITS Pilani Goa Campus](https://www.bits-pilani.ac.in/Goa/index.aspx) and am pursuing a major in Computer Science. My research focuses on **Natural Language Processing, Speech Processing, Discrete Math, and Graph Theory**. I am extensively exploring *Natural Language Understanding, Adversarial Machine Learning, Computational Neuroscience, Semantic Evaluation, and Bias in Natural Language Processing*.
 
-I am a research and development intern at [MIDAS](http://midas.iiitd.edu.in/) Labs, and I work on adversarial Machine Learning. I am  also working on sentiment analysis with the [CS Department, BITS Goa](https://www.bits-pilani.ac.in/goa/ComputerScienceInformationsSystems/ComputerScienceandInformationSystems). I am also the lead developer of [DecepticoNLP](https://github.com/SforAiDl/decepticonlp), an open-source library to generate adversarial examples for robust training of NLP systems.
+I am a research and development intern at [MIDAS](http://midas.iiitd.edu.in/) Labs, and I work on adversarial Machine Learning. I am  also working on sentiment analysis with the [CS Department, BITS Goa](https://www.bits-pilani.ac.in/goa/ComputerScienceInformationsSystems/ComputerScienceandInformationSystems). I am also the lead developer of [DecepticoNLP](https://github.com/SforAiDl/decepticonlp), an open-source library to generate adversarial examples for robust training of NLP systems. Previously, I was a remote intern at [My Smart Price](https://www.mysmartprice.com) and am working on rule-based Recommendation engines. I am also interested in competitive programming, and web development and social research.
 
-I am a remote intern at [My Smart Price](https://www.mysmartprice.com) and am working on rule-based Recommendation engines and
-am also interested in competitive programming, and Web Development.
-
-Apart from the above mentioned technical interests, Cross-Cultural Studies and, Social Research, I am presenting a paper on Impact Evaluation for Enhanced Educational Outcomes under the Humanities Department and presenting it at the International Conference On Teaching And Rehabilitation Of The Deaf, IIT Roorkee.
-
-I use this blog to present all my research, publications, talks, and tutorials from scratch.
+## NEWS
+* \[June 2020\] - My first paper got accepted for publication at SemEval 2020 - https://arxiv.org/abs/2006.00593
+*  \[May 2020\] - I will be working at [MIDAS](http://midas.iiitd.edu.in/) as a remote intern under Dr. Rajiv Shah's guidance.
