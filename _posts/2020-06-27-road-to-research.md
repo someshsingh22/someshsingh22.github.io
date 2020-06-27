@@ -2,8 +2,8 @@
 title: 'Road to Research'
 date: 2020-06-27
 header :
-  teaser : RTR/rtrbanner.jpg
-  image : RTR/rtrthumb.png
+  teaser : RTR/rtrthumb.png
+  image : RTR/rtrbanner.jpg
   caption: Reddit [RedditLogo](https://www.reddit.com/).
 permalink: /posts/2020/06/road-to-research/
 
