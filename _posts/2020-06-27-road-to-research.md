@@ -4,7 +4,7 @@ date: 2020-06-27
 header :
   teaser : RTR/rtrthumb.png
   image : RTR/rtrbanner.jpg
-  caption: Reddit [RedditLogo](https://www.reddit.com/).
+  caption: My Journey
 permalink: /posts/2020/06/road-to-research/
 
 comments : false
