@@ -8,9 +8,7 @@ date: 2020-06-28
 location: "Online"
 ---
 
-#### Disclaimer
----
-There is no shortcut / perfect path to get involved in research or to publish a paper. Also, there will be many times when I may advise you to follow a particular pattern, do something, and avoid the other, yet there will be counter-examples everywhere. But I would make this talk flavored with my experiences and opinions. (Feedback is as welcome !)
+*Disclaimer* - There is no shortcut / perfect path to get involved in research or to publish a paper. Also, there will be many times when I may advise you to follow a particular pattern, do something, and avoid the other, yet there will be counter-examples everywhere. But I would make this talk flavored with my experiences and opinions. (Feedback is as welcome !)
 *The extended discussion for this talk will be set up by IEEE.
 
 ### First steps
