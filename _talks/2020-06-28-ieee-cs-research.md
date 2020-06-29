@@ -2,7 +2,7 @@
 title: "IEEE - CS Research Discussion"
 collection: talks
 type: "Talk"
-permalink: /talks/2012-06-28-ieee-cs-research
+permalink: /talks/2020-06-28-ieee-cs-research
 venue: "IEEE, BITS Plani"
 date: 2020-06-28
 location: "Online"
