@@ -15,11 +15,11 @@ This talk is divided into three segments, this part gives an introduction to und
 [Part 2](): Guide to publish a paper
 [Part 3](https://arxiv.org/abs/2006.00593): BPGC at SemEval-2020 Task 11
 
-**Disclaimer** - There is no shortcut / perfect path to get involved in research or to publish a paper. Also, there will be many times when I may advise you to follow a particular pattern, do something, and avoid the other, yet there will be counter-examples everywhere. But I would make this talk flavored with my experiences and opinions. (Feedback is as welcome !)
----
+#### Disclaimer
+There is no shortcut / perfect path to get involved in research or to publish a paper. Also, there will be many times when I may advise you to follow a particular pattern, do something, and avoid the other, yet there will be counter-examples everywhere. But I would make this talk flavored with my experiences and opinions. (Feedback is as welcome !)
 
 ## First steps
-
+---
 Look into your interests and explore the fields you like before deciding to venture into a particular area in research. Before I got interested in Machine Learning, I looked a bit into Data Structures and Algorithms and some Web development. Read the recent advancements of the fields, find what genuinely attracts you. Complete some online courses and open source projects. I took part in some classes on our campus, Machine Learning being one of them, and worked on many many personal and team projects as time passed before trying out my first research project.
 
 >Experience, Activity, and communication are essential factors in this field. For your first few research projects/papers, you will need knowledgeable and like-minded authors, mentors, and a group of people you can share ideas with to move ahead.
