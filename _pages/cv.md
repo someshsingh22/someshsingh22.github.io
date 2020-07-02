@@ -9,4 +9,5 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my latest [Curriculum Vitae](/files/CV.pdf).
+* [Curriculum Vitae](/files/CV_Somesh_Singh.pdf).
+* [Resume](/files/Resume_Somesh_Singh.pdf)
