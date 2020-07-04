@@ -10,6 +10,8 @@ location: "Online"
 
 I am a second-year Computer Science Undergrad at BITS Pilani. Recently, I published a paper in [SemEval 2020](http://alt.qcri.org/semeval2020/). IEEE hosted a discussion on research in computer science. I will present my work and discuss research in Machine Learning and Computer Science in general, followed by a QnA Section. The extended discussion for this talk will be set up by IEEE for students from BITS.
 
+**Update:** The Talk has been uploaded by IEEE on [YouTube](https://youtu.be/kQMy1-9fBTE)
+
 This talk is divided into three segments, this part gives an introduction to undergraduates who wish to pursue research. The other two parts are the guide to publishing a paper and the presentation of my work, which are given in separate blogs as given below.
 
 [Part 2](https://someshsingh22.github.io//posts/2020/06/publishing-papers/): Guide to publish a paper
