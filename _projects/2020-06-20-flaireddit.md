@@ -17,3 +17,6 @@ tags:
   - NLP
   - WebApp
 ---
+
+You can visit the project's github repository at : [FlaiReddit](https://github.com/someshsingh22/FlaiReddit-MIDAS)
+You can check the deployed webapp at : [FlaiReddit Heroku](https://flaireddittest.herokuapp.com)
