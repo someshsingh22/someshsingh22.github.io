@@ -5,8 +5,8 @@ type: "project"
 permalink: /projects/2020-06-20-flaireddit
 date: 2020-06-20
 header :
-  teaser : FR/thumb.jpg
-  image : FR/title.jpg
+  teaser : FR/thumb.png
+  image : FR/title.png
   caption: FlaiReddit
 permalink: /projects/2020/06/flaireddit/
 
