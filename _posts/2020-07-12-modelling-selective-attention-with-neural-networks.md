@@ -7,4 +7,4 @@ header :
   teaser : MSA/thumb.jpg
 comments : false
 ---
-In computer science, attention mechanisms in models are designed to be allocating different weights to relevant input information and ignore irrelevant information with low-valued weights. However, the connection between computer science models and psychology is still loose and broad. In this post the bridge between attention modelling in neuroscience and Computer science is discussed.
+In computer science, attention mechanisms in models are designed to be allocated different weights to relevant input information and ignore irrelevant information with low-valued weights. However, the connection between computer science models and psychology is still loose and broad. In this post, the bridge between attention modeling in neuroscience and Computer science is discussed.
