@@ -16,4 +16,4 @@ I am a research and development intern at [MIDAS](http://midas.iiitd.edu.in/) La
 * \[June 2020\] - Completed Internship at MySmartPrice
 * \[June 2020\] - I delivered a talk on Computr Science research discussion, organized by [IEEE](https://www.bits-pilani.ac.in/goa/chapters), BITS Pilani.
 * \[June 2020\] - My first paper got accepted for publication at SemEval 2020 - [Link to Paper](https://arxiv.org/abs/2006.00593)
-* \[May 2020\]  - I will be working at [MIDAS](http://midas.iiitd.edu.in/) as a remote intern under Dr. Rajiv Shah's guidance.
+* \[May 2020\]  - I will be working at [MIDAS](http://midas.iiitd.edu.in/team/Somesh-Kumar-Singh.html) as a remote intern under Dr. Rajiv Shah's guidance.
