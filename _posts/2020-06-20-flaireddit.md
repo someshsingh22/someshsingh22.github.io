@@ -20,7 +20,6 @@ tags:
   - Pytorch
 ---
 
-# FlaiReddit - r/India Post Classification WebApp
 FlaiReddit is a text classification webapp deployed on Heroku which detects the 'flair' tags of a Reddit Post from the subreddit r/india. This project consists all major steps important to any applied machine learning pipeline - Data Collection, Processing, Optimized Classifier, Deployment.
 ---
 
@@ -99,6 +98,6 @@ This way you can use the app from a user/developer's perspective
 ---
 
 ## HEROKU DEPLOYMENT
-Finally the web application is deployed on Heroku and is available at [FlaiRedditTest](https://flaireddittest.herokuapp.com/)
-You can visit the project's github repository at : [FlaiReddit](https://github.com/someshsingh22/FlaiReddit-MIDAS)
-You can check the deployed webapp at : [FlaiReddit Heroku](https://flaireddittest.herokuapp.com)
+* Finally the web application is deployed on Heroku and is available at [FlaiRedditTest](https://flaireddittest.herokuapp.com/)
+* You can visit the project's github repository at : [FlaiReddit](https://github.com/someshsingh22/FlaiReddit-MIDAS)
+* You can check the deployed webapp at : [FlaiReddit Heroku](https://flaireddittest.herokuapp.com)
