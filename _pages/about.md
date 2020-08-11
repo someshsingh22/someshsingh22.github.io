@@ -7,9 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am an Undergraduate at [BITS Pilani Goa Campus](https://www.bits-pilani.ac.in/Goa/index.aspx) and am pursuing a Computer Science major. My research focuses on **Natural Language Processing, Speech Processing, Discrete Math, and Graph Theory**. I am extensively exploring *Natural Language Understanding, Adversarial Machine Learning, Computational Neuroscience, Semantic Evaluation, and Bias in Natural Language Processing*.
+I am an Undergraduate at [BITS Pilani Goa Campus](https://www.bits-pilani.ac.in/Goa/index.aspx) and am pursuing a Computer Science major. My research focuses on **Natural Language Processing, Speech Processing, and Adversarial Machine Learning**, along with exploring *Computational Neuroscience, Bayesian Statistics, and Bias in Machine Learning*.
 
-I am a research intern at [MIDAS](http://midas.iiitd.edu.in/) Labs, and I work on adversarial Machine Learning. I am also working on sentiment analysis with the [CS Department, BITS Goa](https://www.bits-pilani.ac.in/goa/ComputerScienceInformationsSystems/ComputerScienceandInformationSystems)  I was previously a remote intern at [My Smart Price](https://www.mysmartprice.com) and worked on rule-based recommendation engines. I am also interested in competitive programming, web development, and social research.
+I am currently a research intern at [MIDAS](http://midas.iiitd.edu.in/) Labs. I am working with automatic text scoring systems alongside pursuing my research on Indian languages with the [CS Department, BITS Goa](https://www.bits-pilani.ac.in/goa/ComputerScienceInformationsSystems/ComputerScienceandInformationSystems). Previously I was a data science intern at [My Smart Price](https://www.mysmartprice.com) and worked on rule-based recommendation engines. I am also interested in competitive programming, web development, and play casual chess.
 
 ## NEWS
 * \[June 2020\] - Completed Internship at MySmartPrice
