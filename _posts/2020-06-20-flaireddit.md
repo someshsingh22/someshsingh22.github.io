@@ -1,14 +1,12 @@
 ---
 title: "FlaiReddit"
-collection: projects
-type: "project"
-permalink: /projects/2020-06-20-flaireddit
+permalink: /posts/2020-06-20-flaireddit
 date: 2020-06-20
 header :
   teaser : TCWA/Redditlogo.png
   image : TCWA/RedditWide.png
   caption: Reddit [RedditLogo](https://www.reddit.com/).
-permalink: /projects/2020/06/flaireddit/
+permalink: /posts/2020/06/flaireddit/
 
 comments : false
 tags:
