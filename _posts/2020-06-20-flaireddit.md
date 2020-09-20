@@ -21,8 +21,8 @@ tags:
 ---
 
 FlaiReddit is a text classification webapp deployed on Heroku which detects the 'flair' tags of a Reddit Post from the subreddit r/india. This project consists all major steps important to any applied machine learning pipeline - Data Collection, Processing, Optimized Classifier, Deployment.
----
 
+---
 ## Data Collection - Web Scraper
 We will use the pushlift.io API instead to make calls and extract JSON packages.
 The data extractor extracts posts from a wide time period to eliminate the Bias towards some hot topics.
