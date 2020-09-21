@@ -17,3 +17,13 @@ I am currently a research intern at [MIDAS](http://midas.iiitd.edu.in/){:target=
 * \[June 2020\] - I delivered a talk on Computer Science research discussion, organized by [IEEE](https://www.bits-pilani.ac.in/goa/chapters){:target="_blank"}, BITS Pilani.
 * \[June 2020\] - My first paper got accepted for publication at SemEval 2020 - [Link to Paper](https://arxiv.org/abs/2006.00593){:target="_blank"}
 * \[May 2020\] - I will be working at [MIDAS](http://midas.iiitd.edu.in/team/Somesh-Kumar-Singh.html){:target="_blank"} as a remote intern under Dr. Rajiv Shah's guidance.
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178463347-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-178463347-2');
+</script>
