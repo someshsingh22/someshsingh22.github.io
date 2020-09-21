@@ -5,7 +5,7 @@ date: 2020-06-20
 header :
   teaser : TCWA/Redditlogo.png
   image : TCWA/RedditWide.png
-  caption: Reddit [RedditLogo](https://www.reddit.com/).
+  caption: Reddit [RedditLogo](https://www.reddit.com/){:target="_blank"}.
 permalink: /posts/2020/06/flaireddit/
 
 comments : false
@@ -44,11 +44,11 @@ while(scraper.current > end time):
 red.dump() #Dump the stats and csv
 ```
 
-A commited notebook is available at [kaggle](https://www.kaggle.com/someshsingh22/redditcrawlertest)
+A commited notebook is available at [kaggle](https://www.kaggle.com/someshsingh22/redditcrawlertest){:target="_blank"}
 ---
 
 ## Exploratory Data Analysis
-Extensive analysis has been done, important words are visualized through WordClouds, in depth explanation of these and preprocessing is present in my [Notebook](https://github.com/someshsingh22/FlaiReddit-MIDAS/blob/master/Notebooks/Part-2-EDA.ipynb)
+Extensive analysis has been done, important words are visualized through WordClouds, in depth explanation of these and preprocessing is present in my [Notebook](https://github.com/someshsingh22/FlaiReddit-MIDAS/blob/master/Notebooks/Part-2-EDA.ipynb){:target="_blank"}
 
 >A baseline model from BOW is also implemented at the end.
 
@@ -98,6 +98,6 @@ This way you can use the app from a user/developer's perspective
 ---
 
 ## HEROKU DEPLOYMENT
-* Finally the web application is deployed on Heroku and is available at [FlaiRedditTest](https://flaireddittest.herokuapp.com/)
-* You can visit the project's github repository at : [FlaiReddit](https://github.com/someshsingh22/FlaiReddit-MIDAS)
-* You can check the deployed webapp at : [FlaiReddit Heroku](https://flaireddittest.herokuapp.com)
+* Finally the web application is deployed on Heroku and is available at [FlaiRedditTest](https://flaireddittest.herokuapp.com/){:target="_blank"}
+* You can visit the project's github repository at : [FlaiReddit](https://github.com/someshsingh22/FlaiReddit-MIDAS){:target="_blank"}
+* You can check the deployed webapp at : [FlaiReddit Heroku](https://flaireddittest.herokuapp.com){:target="_blank"}

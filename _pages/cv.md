@@ -9,5 +9,5 @@ redirect_from:
 
 {% include base_path %}
 
-* [Curriculum Vitae](/files/CV_Somesh_Singh.pdf).
-* [Resume](/files/Resume_Somesh_Singh.pdf)
+* [Curriculum Vitae](/files/CV_Somesh_Singh.pdf){:target="_blank"}.
+* [Resume](/files/Resume_Somesh_Singh.pdf){:target="_blank"}
