@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Somesh's Profile"
 title_separator          : "-"
 name                     : &name "Somesh Singh"
-description              : &description "Computer Science Undergrad"
+description              : &description "Computer Science Undergraduate"
 url                      : https://someshsingh22.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "someshsingh22/someshsingh22.github.io"
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "So_Mess_Singh"
+  username               : &twitter "someshsingh22"
 facebook:
   username               :
   app_id                 :
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Somesh Singh"
   avatar           : "ss22.jpg"
-  bio              : "Computer Science Undergrad, NLP Research Intern @MIDAS."
+  bio              : "Computer Science Undergraduate, Research Intern @MIDAS."
   location         : "Goa, India"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=xhoVsE0AAAAJ&scilu=&scisig=AMD79ooAAAAAXtZE2rjapYPVK4l-rFDDwhFaNBy8zwTx&gmla=AJsN-F6ygfrNKlPKtGaJtMKMT6F92dnRWZMDKDhgl1BgBc6b-0frx6cUifcwu66rYEonf889fyAxw9gODnlAzFLd59luhCDTP88F6LMcK7FfkIUove8hn5w&sciund=16955019062171152219"
-  email            : "f20180175@goa.bits-pilani.ac.in"
+  email            : "singhksomesh@gmail.com"
   researchgate     :  "https://www.researchgate.net/profile/Somesh_Singh8"
   uri              :
   bitbucket        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "So_Mess_Singh"
+  twitter          : "someshsingh22"
   vine             :
   weibo            :
   xing             :
