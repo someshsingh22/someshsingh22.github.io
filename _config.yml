@@ -121,6 +121,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _futureposts
   - files
 exclude:
   - "*.sublime-project"
