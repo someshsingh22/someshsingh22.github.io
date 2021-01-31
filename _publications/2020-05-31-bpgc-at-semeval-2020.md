@@ -4,9 +4,9 @@ collection: publications
 permalink: /publication/2020-05-31-bpgc-at-semeval-2020
 excerpt: 'News Propaganda, High granularity, Imbalanced Classification, Contextual Embeddings'
 date: 2020-05-31
-venue: 'SemEval-2020 International Workshop on Semantic Evaluation Sponsored by SIGLEX'
-paperurl: 'https://arxiv.org/abs/2006.00593'
-citation: 'patil2020bpgc'
+venue: 'SemEval 2020, Spain'
+paperurl: 'https://www.aclweb.org/anthology/2020.semeval-1.226/'
+citation: 'patil-etal-2020-bpgc'
 
 ---
 
