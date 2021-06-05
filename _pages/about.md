@@ -7,9 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a Junior Year Undergraduate at [BITS Pilani Goa Campus](https://www.bits-pilani.ac.in/Goa/index.aspx){:target="_blank"} and am pursuing a Computer Science major. My research focuses on **Natural Language Processing, Adversarial Machine Learning, Speech Processing, and Cognitive Neuroscience**.
+I am a Senior Year Undergraduate at [BITS Pilani Goa Campus](https://www.bits-pilani.ac.in/Goa/index.aspx){:target="_blank"} and am pursuing a Computer Science major. My research focuses on **Natural Language Processing, Adversarial Machine Learning, Speech Processing, and Cognitive Neuroscience**.
 
-I am currently a research intern at [MIDAS](http://midas.iiitd.edu.in/){:target="_blank"} Labs. I am working with automatic text scoring systems, and investigating effects of morphology on Transformers alongside pursuing my research on Indian languages with the [CS Department, BITS Goa](https://www.bits-pilani.ac.in/goa/ComputerScienceInformationsSystems/ComputerScienceandInformationSystems){:target="_blank"} and Visual reasoning as a part of [TCS-Research](https://www.tcs.com/research-and-innovation){:target="_blank"} and [APPCAIR](https://www.bits-pilani.ac.in/appcair/){:target="_blank"}. Previously I was a data science intern at [MySmartPrice](https://www.mysmartprice.com){:target="_blank"} and worked on rule-based recommendation engines. 
+I am currently a research intern at [MIDAS](http://midas.iiitd.edu.in/){:target="_blank"} Labs. I am working with automatic text scoring systems, and investigating effects of morphology on Transformers and biases in machine learning, alongside pursuing my research on Indian languages with the [CS Department, BITS Goa](https://www.bits-pilani.ac.in/goa/ComputerScienceInformationsSystems/ComputerScienceandInformationSystems){:target="_blank"}. Previously I was a data science intern at [MySmartPrice](https://www.mysmartprice.com){:target="_blank"} and worked on rule-based recommendation engines. 
 
 I have been the events and initiatives head at [CTE](https://bpgc-cte.org/){:target="_blank"}, Lead [LRG](http://lrg.saidl.in/){:target="_blank"}, and am also interested in competitive programming, web development, and playing casual chess @[someshsingh22](https://www.chess.com/member/someshsingh22){:target="_blank"}.
 
