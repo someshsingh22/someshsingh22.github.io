@@ -13,8 +13,7 @@ I am a Data Science Intern at [CommerceIQ](https://www.commerceiq.ai/) where I w
 
 I am currently a research intern at [MIDAS](http://midas.iiitd.edu.in/){:target="_blank"} Labs. I am working with automatic text scoring systems, and investigating effects of morphology on Transformers and biases in machine learning, alongside pursuing my research on Indian languages with the [CS Department, BITS Goa](https://www.bits-pilani.ac.in/goa/ComputerScienceInformationsSystems/ComputerScienceandInformationSystems){:target="_blank"}. Previously I was a data science intern at [MySmartPrice](https://www.mysmartprice.com){:target="_blank"} and worked on rule-based recommendation engines. 
 
-I have been the events and initiatives head at [CTE](https://bpgc-cte.org/){:target="_blank"}, Lead [LRG](http://lrg.saidl.in/){:target="_blank"}, and am also interested in competitive programming, web development, and playing casual chess @[someshsingh22](https://www.chess.com/member/someshsingh22){:target="_blank"}.
-
+I have been the events and initiatives head at [CTE](https://bpgc-cte.org/){:target="_blank"}, Lead [LRG](http://lrg.saidl.in/){:target="_blank"}, and am also interested in competitive programming, web development, and playing casual chess.
 ## NEWS
 * **July 2021** - I will be joining [CommerceIQ](https://www.commerceiq.ai/){:target="_blank"} as a data science intern.
 * **December 2020** - I will be joining [AXON](https://axonbpgc.github.io/){:target="_blank"} as a core member.
