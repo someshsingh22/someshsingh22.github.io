@@ -30,7 +30,7 @@ While at BITS, I had the opportunity of working with [APPCAIR](https://www.bits-
 
 # NEWS!
 
-<div style="overflow:scroll; height:12em;">
+<div style="overflow-y:scroll; height:12em;">
 <ul>
   <li><strong>OCT, 2021</strong>: Check our work on <a href="https://deepai.org/publication/aes-are-both-overstable-and-oversensitive-explaining-why-and-proposing-defenses" target="_blank">Overstability and Oversensitivity in AES Systems</a></li>
 
