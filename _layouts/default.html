@@ -9,10 +9,26 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .img-container {
+      float: left;
+      width: 25%;
+      padding: 1px;
+    }
+    
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  </style>
   </head>
 
   <body>
-
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
