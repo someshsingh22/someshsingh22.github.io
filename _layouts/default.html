@@ -18,7 +18,7 @@ layout: compress
     
     .img-container {
       float: left;
-      width: 25%;
+      width: 20%;
       padding: 1px;
     }
     
@@ -48,10 +48,10 @@ layout: compress
     line-height: 1.5;
     margin-top: 0;
     margin-bottom: 0;
-    padding-left: 2em;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-    padding-right: 2em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 0.5em;
   }
   
   span.designation {
@@ -61,15 +61,30 @@ layout: compress
   a.company {
     font-size: 1.05rem;
     color: #1665c0;
+    text-decoration: none;
     }
+
+  a.company:visited {
+    text-decoration: none;
+  }
+
+  a.company:hover {
+    text-decoration: underline;
+  }
+
+  a.company:active {
+    text-decoration: underline;
+  }
+
   
   span.date {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-style: italic;
+    margin-bottom: 0.2em;
   }
 
   p.desc {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin-bottom: 0;
   }
 

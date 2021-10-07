@@ -27,6 +27,9 @@ While at BITS, I had the opportunity of working with [APPCAIR](https://www.bits-
   <div class="img-container">
   <img src="/images/MIDAS.png" alt="MIDAS" style="width:100%">
   </div>
+  <div class="img-container">
+  <img src="/images/msp.png" alt="MySmartPrice" style="width:100%">
+  </div>
 </div>
 <br>
 
@@ -39,7 +42,7 @@ While at BITS, I had the opportunity of working with [APPCAIR](https://www.bits-
   
   <li class="a"><strong>SEP, 2021</strong>: Check our work on <a href="https://arxiv.org/abs/2109.11728" target="_blank">Overstability and Oversensitivity in AES Systems</a></li>
 
-  <li class="a"><strong>AUG, 2021</strong> - I will be a teaching assistant for the course <a href="https://bpgc-csf429.github.io/" target="_blank">CS F429: Natural Language Processing</a>.</li>
+  <li class="a"><strong>JUL, 2021</strong> - I will be a teaching assistant for the course <a href="https://bpgc-csf429.github.io/" target="_blank">CS F429: Natural Language Processing</a>.</li>
 
   <li class="a"><strong>JUL, 2021</strong> - Big move! Joining as a Data Scientist at <a href="https://www.commerceiq.ai/" target="_blank">CommerceIQ</a></li>
 
@@ -64,13 +67,43 @@ While at BITS, I had the opportunity of working with [APPCAIR](https://www.bits-
 
   <li class="a">
   <table class="a"><tr>
+  <td class="a" width="25%"><img src="/images/Adobe.png" alt="Adobe" style="width:100%"></td>
+  <td class="a" width="75%">
+  <span class="designation">Research Intern</span><br>
+  <a class="company" href="https://research.adobe.com/" target="_blank">Adobe MDSR Labs</a><br>
+  <span class="date">Incoming Jan 2022, Bangalore</span><br>
+  <p class="desc">
+  <br>
+  I will be doing my undergraduate thesis at Adobe as an incoming intern.
+  </p><br>
+  </td>
+  </tr></table>
+  </li>
+
+  <li class="a">
+  <table class="a"><tr>
+  <td class="a" width="25%"><img src="/images/CIQ.png" alt="CIQ" style="width:100%"></td>
+  <td class="a" width="75%">
+  <span class="designation">Data Scientist</span><br>
+  <a class="company" href="https://www.commerceiq.ai/" target="_blank">CommerceIQ</a><br>
+  <span class="date">July 2021 - Ongoing, Bangalore</span><br>
+  <p class="desc">
+  <br>
+  Working on advertisement optimization on e-commerce platforms such as Amazon and Walmart using Natural Language Processing
+  </p><br>
+  </td>
+  </tr></table>
+  </li>
+
+  <li class="a">
+  <table class="a"><tr>
   <td class="a" width="25%"><img src="/images/APPCAIR.png" alt="CIQ" style="width:100%"></td>
   <td class="a" width="75%">
-  <span class="designation">Undergraduate Researcher</span><br>
+  <span class="designation">Researcher (Undergrad)</span><br>
   <a class="company" href="https://www.bits-pilani.ac.in/appcair/" target="_blank">APPCAIR</a><br>
-  <span class="date">Aug 2021 - Ongoing</span><br>
-  <br>
+  <span class="date">July 2021 - Ongoing, Goa</span><br>
   <p class="desc">
+  <br>
   Evidence synthesis using Machine Learning
   </p><br>
   </td>
@@ -80,20 +113,33 @@ While at BITS, I had the opportunity of working with [APPCAIR](https://www.bits-
 
   <li class="a">
   <table class="a"><tr>
-  <td class="a" width="25%"><img src="/images/CIQ.png" alt="CIQ" style="width:100%"></td>
+  <td class="a" width="25%"><img src="/images/MIDAS.png" alt="MIDAS" style="width:100%"></td>
   <td class="a" width="75%">
-  <span class="designation">Data Scientist</span><br>
-  <a class="company" href="https://www.commerceiq.ai/" target="_blank">CommerceIQ</a><br>
-  <span class="date">July 2021 - Ongoing</span><br>
-  <br>
+  <span class="designation">Research Intern</span><br>
+  <a class="company" href="http://midas.iiitd.edu.in/" target="_blank">MIDAS Labs, IIIT Delhi</a><br>
+  <span class="date">May 2020 - Ongoing, Delhi</span><br>
   <p class="desc">
-  advertisement optimization on e-commerce platforms such as Amazon and Walmart using Natural Language Processing
+  <br>
+  Worked on several NLP Projects in fields like AES, Adversarial Robustness, Linguistics check my work <a href="https://arxiv.org/abs/2109.12406" target="_blank">MINIMAL</a> and <a href="https://arxiv.org/abs/2109.11728" target="_blank">Overstability and Oversensitivity in AES Systems</a>!
   </p><br>
   </td>
   </tr></table>
   </li>
 
-
+  <li class="a">
+  <table class="a"><tr>
+  <td class="a" width="25%"><img src="/images/msp.png" alt="My Smart Price" style="width:100%"></td>
+  <td class="a" width="75%">
+  <span class="designation">SDE</span><br>
+  <a class="company" href="https://www.mysmartprice.com" target="_blank">MySmartPrice Web Technologies</a><br>
+  <span class="date">May 2020 - July 2020, Hyderabad</span><br>
+  <p class="desc">
+  <br>
+  Rule based recommnedation systems and Web Crawling.
+  </p><br>
+  </td>
+  </tr></table>
+  </li>
 
 </ul>
 <br>
