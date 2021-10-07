@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a Senior Year, Computer Science Undergraduate at [BITS Pilani, Goa](https://www.bits-pilani.ac.in/Goa/index.aspx){:target="_blank"} and am pursuing a minor in Data Science. My research focuses on **Natural Language Processing, Adversarial Machine Learning, Speech Processing, and Cognitive Neuroscience**.
+I am a Senior Year, Computer Science Undergraduate at [BITS Pilani, Goa](https://www.bits-pilani.ac.in/Goa/index.aspx){:target="_blank"} and am pursuing a minor in Data Science. My research focuses on Natural Language Processing, Adversarial Machine Learning, Speech Processing, and Cognitive Neuroscience.
 
 Currently, I am a Data Scientist (Intern) at [CommerceIQ](https://www.commerceiq.ai/) where I work on advertisement optimization on e-commerce platforms such as Amazon and Walmart using Natural Language Processing and an upcoming Research Intern at [Adobe Research](https://research.adobe.com/) where I will be doing my undergraduate thesis. Previously, I was a research intern at [MIDAS Labs](http://midas.iiitd.edu.in/){:target="_blank"} where I was working with automatic text scoring systems, and investigating effects of morphology on Transformers and biases in machine learning.
 
@@ -30,7 +30,7 @@ While at BITS, I had the opportunity of working with [APPCAIR](https://www.bits-
 </div>
 <br>
 
-# NEWS!
+# News!
 
 
 <div style="overflow-y:scroll; height:12em;">
@@ -61,33 +61,39 @@ While at BITS, I had the opportunity of working with [APPCAIR](https://www.bits-
 # Work Experience
 
 <ul>
-  <li class="a"><p class="a">
-  <span class="designation">Data Scientist (Intern)</span><span class="date">July 2021 - Jan 2022</span><br>
-  <br>
-  CommerceIQ<br>
-  advertisement optimization on e-commerce platforms such as Amazon and Walmart using Natural Language Processing <br>
-  </p></li>
-  
-  <li class="a"><p class="a">
-  <span class="designation">Research Project Student</span><span class="date">Aug 2021 - Jan 2022</span><br>
-  <br>
-  APPCAIR<br>
-  Working on evidencer<br>
-  </p></li>
 
-  <li class="a"><p class="a">
-  <span class="designation">Research Intern</span><span class="date">May 2020 - Ongoing</span><br>
+  <li class="a">
+  <table class="a"><tr>
+  <td class="a" width="25%"><img src="/images/APPCAIR.png" alt="CIQ" style="width:100%"></td>
+  <td class="a" width="75%">
+  <span class="designation">Undergraduate Researcher</span><br>
+  <a class="company" href="https://www.bits-pilani.ac.in/appcair/" target="_blank">APPCAIR</a><br>
+  <span class="date">Aug 2021 - Ongoing</span><br>
   <br>
-  MIDAS Labs<br>
-  Research Intern<br>
-  </p></li>
-  
-  <li class="a"><p class="a">
-  <span class="designation">SDE</span><span class="date">May 2020 - July 2020</span><br>
+  <p class="desc">
+  Evidence synthesis using Machine Learning
+  </p><br>
+  </td>
+  </tr></table>
+  </li>
+
+
+  <li class="a">
+  <table class="a"><tr>
+  <td class="a" width="25%"><img src="/images/CIQ.png" alt="CIQ" style="width:100%"></td>
+  <td class="a" width="75%">
+  <span class="designation">Data Scientist</span><br>
+  <a class="company" href="https://www.commerceiq.ai/" target="_blank">CommerceIQ</a><br>
+  <span class="date">July 2021 - Ongoing</span><br>
   <br>
-  MySmartPrice Web Technologies <br>
-  Summer Internship<br>
-  </p></li>
+  <p class="desc">
+  advertisement optimization on e-commerce platforms such as Amazon and Walmart using Natural Language Processing
+  </p><br>
+  </td>
+  </tr></table>
+  </li>
+
+
 
 </ul>
 <br>
