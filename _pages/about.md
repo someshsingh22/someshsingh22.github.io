@@ -43,84 +43,24 @@ While at BITS, I had the opportunity of working with [APPCAIR](https://www.bits-
 # Work Experience
 
 <ul>
-
-  <li class="a">
+{% for item in site.data.workex.experiences %}
+<li class="a">
   <table class="a"><tr>
-  <td class="a" width="25%"><img src="/images/Adobe.png" alt="Adobe" style="width:100%"></td>
-  <td class="a" width="75%">
-  <span class="designation">Research Intern</span><br>
-  <a class="company" href="https://research.adobe.com/" target="_blank">Adobe MDSR Labs</a><br>
-  <span class="date">Incoming Jan 2022, Bangalore</span><br>
+  <td class="a" width="20%"><img class="padded-image" src="/images/{{ item.img-path }}" alt="{{ item.name }}" style="width:100%"></td>
+  <td class="a" width="80%">
+  <span class="designation">{{ item.designation }}</span><br>
+  <a class="company" href="{{ item.url }}" target="_blank">{{ item.name }}</a><br>
+  <span class="date">{{item.date}}</span><br>
   <p class="desc">
   <br>
-  I will be doing my undergraduate thesis at Adobe as an incoming intern.
+  {{item.desc}}
   </p><br>
   </td>
   </tr></table>
   </li>
-
-  <li class="a">
-  <table class="a"><tr>
-  <td class="a" width="25%"><img src="/images/CIQ.png" alt="CIQ" style="width:100%"></td>
-  <td class="a" width="75%">
-  <span class="designation">Data Scientist</span><br>
-  <a class="company" href="https://www.commerceiq.ai/" target="_blank">CommerceIQ</a><br>
-  <span class="date">July 2021 - Ongoing, Bangalore</span><br>
-  <p class="desc">
-  <br>
-  Working on advertisement optimization on e-commerce platforms such as Amazon and Walmart using Natural Language Processing
-  </p><br>
-  </td>
-  </tr></table>
-  </li>
-
-  <li class="a">
-  <table class="a"><tr>
-  <td class="a" width="25%"><img src="/images/APPCAIR.png" alt="CIQ" style="width:100%"></td>
-  <td class="a" width="75%">
-  <span class="designation">Researcher (Undergrad)</span><br>
-  <a class="company" href="https://www.bits-pilani.ac.in/appcair/" target="_blank">APPCAIR</a><br>
-  <span class="date">July 2021 - Ongoing, Goa</span><br>
-  <p class="desc">
-  <br>
-  Evidence synthesis using Machine Learning
-  </p><br>
-  </td>
-  </tr></table>
-  </li>
-
-
-  <li class="a">
-  <table class="a"><tr>
-  <td class="a" width="25%"><img src="/images/MIDAS.png" alt="MIDAS" style="width:100%"></td>
-  <td class="a" width="75%">
-  <span class="designation">Research Intern</span><br>
-  <a class="company" href="http://midas.iiitd.edu.in/" target="_blank">MIDAS Labs, IIIT Delhi</a><br>
-  <span class="date">May 2020 - Ongoing, Delhi</span><br>
-  <p class="desc">
-  <br>
-  Worked on several NLP Projects in fields like AES, Adversarial Robustness, Linguistics check my work <a href="https://arxiv.org/abs/2109.12406" target="_blank">MINIMAL</a> and <a href="https://arxiv.org/abs/2109.11728" target="_blank">Overstability and Oversensitivity in AES Systems</a>!
-  </p><br>
-  </td>
-  </tr></table>
-  </li>
-
-  <li class="a">
-  <table class="a"><tr>
-  <td class="a" width="25%"><img src="/images/msp.png" alt="My Smart Price" style="width:100%"></td>
-  <td class="a" width="75%">
-  <span class="designation">SDE</span><br>
-  <a class="company" href="https://www.mysmartprice.com" target="_blank">MySmartPrice Web Technologies</a><br>
-  <span class="date">May 2020 - July 2020, Hyderabad</span><br>
-  <p class="desc">
-  <br>
-  Rule based recommnedation systems and Web Crawling.
-  </p><br>
-  </td>
-  </tr></table>
-  </li>
-
+{% endfor %}
 </ul>
+
 <br>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
