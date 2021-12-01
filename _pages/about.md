@@ -17,6 +17,8 @@ While at BITS, I had the opportunity of working with [APPCAIR](https://www.bits-
 
 <div style="overflow-y:scroll; height:12em;">
 <ul>
+  <li class="a"><strong>DEC, 2021</strong>: Voila! Our work on <a href="https://arxiv.org/abs/2109.12406" target="_blank">MINIMAL, Crafting Data Free Adversaries</a> got accepted in <a href="https://aaai.org/Conferences/AAAI-22/" target="_blank">AAAI-2022</a> ! </li>
+
   <li class="a"><strong>OCT, 2021</strong>: Check our work on <a href="https://arxiv.org/abs/2109.12406" target="_blank">MINIMAL, Crafting Data Free Adversaries</a></li>
   
   <li class="a"><strong>SEP, 2021</strong>: Check our work on <a href="https://arxiv.org/abs/2109.11728" target="_blank">Overstability and Oversensitivity in AES Systems</a></li>
