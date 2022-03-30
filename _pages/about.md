@@ -13,7 +13,7 @@ Currently, I am a Data Scientist (Intern) at [CommerceIQ](https://www.commerceiq
 
 While at BITS, I had the opportunity of working with [APPCAIR](https://www.bits-pilani.ac.in/appcair/), [MySmartPrice](https://www.mysmartprice.com){:target="_blank"} along with the [CS Department, BITS Goa](https://www.bits-pilani.ac.in/goa/ComputerScienceInformationsSystems/ComputerScienceandInformationSystems){:target="_blank"} where I was also a [teaching assistant](/teaching). I have been a part of [CTE](https://bpgc-cte.org/){:target="_blank"}, [SAiDL](https://www.saidl.in/){:target="_blank"}, and [LRG](http://lrg.saidl.in/){:target="_blank"}. I love to play casual chess as well!
 
-# News!
+# News
 
 <div style="overflow-y:scroll; height:12em;">
 <ul>
