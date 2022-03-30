@@ -7,9 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a Senior Year, Computer Science Undergraduate at [BITS Pilani, Goa](https://www.bits-pilani.ac.in/Goa/index.aspx){:target="_blank"} and am pursuing a minor in Data Science. My research focuses on Natural Language Processing, Adversarial Machine Learning, Speech Processing, and Cognitive Neuroscience.
+I am a Senior Year, Computer Science Undergraduate with a minor in Data Science at [BITS Pilani, Goa](https://www.bits-pilani.ac.in/Goa/index.aspx){:target="_blank"}. I am doing my undergraduate thesis on Commonsense Reasoning advised by [Prof. Tirtharaj Dash](https://tirtharajdash.github.io/){:target="_blank"} and [Prof. Ashwin Srinivasan](https://www.bits-pilani.ac.in/goa/ashwin/profile){:target="_blank"}. My research focuses on Natural Language Processing, Adversarial Machine Learning, Speech Processing, and Cognitive Neuroscience.
 
-Currently, I am a Data Scientist (Intern) at [CommerceIQ](https://www.commerceiq.ai/) where I work on advertisement optimization on e-commerce platforms such as Amazon and Walmart using Natural Language Processing and an upcoming Research Intern at [Adobe Research](https://research.adobe.com/) where I will be doing my undergraduate thesis. Previously, I was a research intern at [MIDAS Labs](http://midas.iiitd.edu.in/){:target="_blank"} where I was working with automatic text scoring systems, and investigating effects of morphology on Transformers and biases in machine learning.
+Currently, I am a research intern at [Adobe](https://research.adobe.com/) where I am working on content optimisation and causal modelling. Previously, I was a data scientist (Intern) at [CommerceIQ](https://www.commerceiq.ai/) where I worked on advertisement optimization on e-commerce platforms and recieved the Q4 award (Digital Shelf Enamblers) for working on "Digital Shelves". I have been a research intern at [MIDAS Labs](http://midas.iiitd.edu.in/){:target="_blank"} where I was working with automatic text scoring systems, and investigating effects of morphology on Transformers and biases in machine learning.
 
 While at BITS, I had the opportunity of working with [APPCAIR](https://www.bits-pilani.ac.in/appcair/), [MySmartPrice](https://www.mysmartprice.com){:target="_blank"} along with the [CS Department, BITS Goa](https://www.bits-pilani.ac.in/goa/ComputerScienceInformationsSystems/ComputerScienceandInformationSystems){:target="_blank"} where I was also a [teaching assistant](/teaching). I have been a part of [CTE](https://bpgc-cte.org/){:target="_blank"}, [SAiDL](https://www.saidl.in/){:target="_blank"}, and [LRG](http://lrg.saidl.in/){:target="_blank"}. I love to play casual chess as well!
 
@@ -17,6 +17,8 @@ While at BITS, I had the opportunity of working with [APPCAIR](https://www.bits-
 
 <div style="overflow-y:scroll; height:12em;">
 <ul>
+  <li class="a"><strong>JAN, 2022</strong>: Joined <a href="https://research.adobe.com/" target="_blank">Adobe</a> as a research Intern!</li>
+  
   <li class="a"><strong>DEC, 2021</strong>: Voila! Our work on <a href="https://arxiv.org/abs/2109.12406" target="_blank">MINIMAL, Crafting Data Free Adversaries</a> got accepted in <a href="https://aaai.org/Conferences/AAAI-22/" target="_blank">AAAI-2022</a> ! </li>
 
   <li class="a"><strong>OCT, 2021</strong>: Check our work on <a href="https://arxiv.org/abs/2109.12406" target="_blank">MINIMAL, Crafting Data Free Adversaries</a></li>
