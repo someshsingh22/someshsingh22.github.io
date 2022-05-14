@@ -1,10 +1,10 @@
 experiences:
   - name: "Adobe MDSR Labs"
     img-path: "Adobe.png"
-    designation: "Research Intern"
+    designation: "Machine Learning Research Associate"
     url: "https://research.adobe.com/"
-    date: "Jan 2022 - July 2022, Noida"
-    desc: "I will be working on content optimisation at Adobe as a research Intern."
+    date: "Jan 2022 -, Noida"
+    desc: "I will be a part of the Digital Experience team at Adobe research, previously I was working on content optimisation as a research Intern."
 
   - name: "APPCAIR"
     img-path: "APPCAIR.png"
