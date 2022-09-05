@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Somesh's Profile"
 title_separator          : "-"
 name                     : &name "Somesh Singh"
-description              : &description "Computer Science Undergraduate"
+description              : &description "ML Research Associate at Adobe"
 url                      : https://someshsingh22.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "someshsingh22/someshsingh22.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Somesh Singh"
   avatar           : "ss22.jpeg"
-  bio              : "Computer Science Undergraduate || Data Science Intern @CommerceIQ || Research Intern @MIDAS."
-  location         : "Goa, India"
+  bio              : "ML Research Associate @ Adobe || CS'22 @BITS Pilani."
+  location         : "Noida, India"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=xhoVsE0AAAAJ&scilu=&scisig=AMD79ooAAAAAXtZE2rjapYPVK4l-rFDDwhFaNBy8zwTx&gmla=AJsN-F6ygfrNKlPKtGaJtMKMT6F92dnRWZMDKDhgl1BgBc6b-0frx6cUifcwu66rYEonf889fyAxw9gODnlAzFLd59luhCDTP88F6LMcK7FfkIUove8hn5w&sciund=16955019062171152219"

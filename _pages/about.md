@@ -7,11 +7,14 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a Senior Year, Computer Science Undergraduate with a minor in Data Science at [BITS Pilani, Goa](https://www.bits-pilani.ac.in/Goa/index.aspx){:target="_blank"}. I am doing my undergraduate thesis on Commonsense Reasoning advised by [Prof. Tirtharaj Dash](https://tirtharajdash.github.io/){:target="_blank"} and [Prof. Ashwin Srinivasan](https://www.bits-pilani.ac.in/goa/ashwin/profile){:target="_blank"}. My research focuses on Natural Language Processing, Adversarial Machine Learning, Speech Processing, and Cognitive Neuroscience.
 
-Currently, I am a machine learning research associate at [Adobe](https://research.adobe.com/) where I am working on content optimisation and causal modelling. Previously, I was a data scientist (Intern) at [CommerceIQ](https://www.commerceiq.ai/) where I worked on advertisement optimization on e-commerce platforms and recieved the Q4 award (Digital Shelf Enamblers) for working on "Digital Shelves". I have been a research intern at [MIDAS Labs](http://midas.iiitd.edu.in/){:target="_blank"} where I was working with automatic text scoring systems, and investigating effects of morphology on Transformers and biases in machine learning.
+I am a ML Research Associate at [Adobe]("https://research.adobe.com/"){:target="_blank"}. Previously, I was a Computer Science undergraduate student at [BITS Pilani, Goa](https://www.bits-pilani.ac.in/Goa/index.aspx){:target="_blank"} with a minor in Data Science. My research involves Causal Modelling, NLP, Cognitive Neuroscience, Psycholinguistics, Marketing, and Advertising.
 
-While at BITS, I had the opportunity of working with [APPCAIR](https://www.bits-pilani.ac.in/appcair/), [MySmartPrice](https://www.mysmartprice.com){:target="_blank"} along with the [CS Department, BITS Goa](https://www.bits-pilani.ac.in/goa/ComputerScienceInformationsSystems/ComputerScienceandInformationSystems){:target="_blank"} where I was also a [teaching assistant](/teaching). I have been a part of [CTE](https://bpgc-cte.org/){:target="_blank"}, [SAiDL](https://www.saidl.in/){:target="_blank"}, and [LRG](http://lrg.saidl.in/){:target="_blank"}. I love to play casual chess as well!
+At Adobe, my work revolves around modelling consumer, marketer, interactions and the underlying behaviour. I completed my undergraduate thesis on modelling mammal-inspired semantic memories in continual learning systems, under [Prof. Tirtharaj Dash](https://tirtharajdash.github.io/){:target="_blank"} at [APPCAIR](https://www.bits-pilani.ac.in/appcair/) and [Veeky Baths](https://universe.bits-pilani.ac.in/goa/veeky/profile).
+
+Previously, I was a data scientist (Intern) at [CommerceIQ](https://www.commerceiq.ai/) where I worked on advertisement optimization on e-commerce platforms and recieved the Q4 award (Digital Shelf Enamblers) for working on "Digital Shelves". I have been a research intern at [MIDAS Labs](http://midas.iiitd.edu.in/){:target="_blank"} where I was working with automatic text scoring systems, and Adversarial NLP.
+
+While at BITS, I had the opportunity of working with the [CS Department, BITS Goa](https://www.bits-pilani.ac.in/goa/ComputerScienceInformationsSystems/ComputerScienceandInformationSystems){:target="_blank"} where I was also a [teaching assistant](/teaching). I have been a part of [CTE](https://bpgc-cte.org/){:target="_blank"}, [SAiDL](https://www.saidl.in/){:target="_blank"}, and [LRG](http://lrg.saidl.in/){:target="_blank"}. I love to play casual chess as well!
 
 # News
 
