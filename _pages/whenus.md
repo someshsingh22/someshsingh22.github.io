@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /whenus
 title: "WhenUS"
 excerpt: "WhenUS"
 author_profile: false
