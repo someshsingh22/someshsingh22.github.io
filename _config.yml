@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Somesh's Profile"
 title_separator          : "-"
 name                     : &name "Somesh Singh"
-description              : &description "ML Research Associate at Adobe"
+description              : &description "MLE2 @ Adobe"
 url                      : https://someshsingh22.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "someshsingh22/someshsingh22.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Somesh Singh"
   avatar           : "ss22.jpeg"
-  bio              : "ML Research Associate @ Adobe || CS'22 @BITS Pilani."
+  bio              : "MLE2 @ Adobe || CS'22 @BITS Pilani."
   location         : "Noida, India"
   employer         :
   pubmed           : 
@@ -257,7 +257,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Kolkata # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

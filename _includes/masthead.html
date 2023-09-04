@@ -3,10 +3,12 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
+      <nav id="site-nav" class="greedy-nav" style="display: flex;">
         <button><div class="navicon"></div></button>
-        <ul class="visible-links">
+        <ul class="visible-links" style="flex: 1;text-align: left;">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+        </ul>
+        <ul class="visible-links" style="flex: 0;text-align: right;padding-right:5%">
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}

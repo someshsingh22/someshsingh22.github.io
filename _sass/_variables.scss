@@ -14,7 +14,8 @@
    
    /* system typefaces */
    $serif                      : Georgia, Times, serif;
-   $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+   $sans-serif                 : "Open Sans", sans-serif;
+   $google-font                : "Playfair Display", serif;
    $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
    
    /* sans serif typefaces */
@@ -29,7 +30,7 @@
    $garamond                   : Garamond, serif;
    
    $global-font-family         : $sans-serif;
-   $header-font-family         : $sans-serif;
+   $header-font-family         : $google-font;
    $caption-font-family        : $serif;
    
    /* type scale */
@@ -53,14 +54,14 @@
    $light-gray                 : mix(#fff, $gray, 50%);
    $lighter-gray               : mix(#fff, $gray, 90%);
    
-   $body-color                 : #252a34;
-   $background-color           : #252a34;
+   $body-color                 : #f5f5f5;
+   $background-color           : #f5f5f5;
    $code-background-color      : mix(#000, $background-color, 15%);
    $code-background-color-dark : mix(#000, $background-color, 20%);
-   $text-color                 : #eaeaea;
+   $text-color                 : #000;
    $border-color               : mix(#fff, $background-color, 20%);
    
-   $primary-color              : #8cd2d5;
+   $primary-color              : #fff;
    $success-color              : #62c462;
    $warning-color              : #f89406;
    $danger-color               : #ee5f5b;
@@ -115,7 +116,7 @@
    $medium                     : 768px !default;
    $medium-wide                : 900px !default;
    $large                      : 925px !default;
-   $x-large                    : 1280px !default;
+   $x-large                    : 85% !default;
    
    /*
       Grid
