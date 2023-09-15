@@ -30,21 +30,12 @@
     "“When you hit your lowest point you are open to the greatest change.” - Avatar Aang",
     "“If we knew what it was we were doing, it would not be called research, would it?” - Albert Einstein"
 ];
-
-// Function to display a random quote
 function displayRandomQuote() {
-    // Get a random index from the quotes array
     const randomIndex = Math.floor(Math.random() * quotes.length);
-
-    // Get the quote at the random index
     const randomQuote = quotes[randomIndex];
-
-    // Update the content of the 'quote' paragraph
     const quoteElement = document.getElementById("quote");
     quoteElement.innerHTML = randomQuote;
 }
-
-// Call the function to display a random quote when the page loads
 window.addEventListener("load", displayRandomQuote);
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
