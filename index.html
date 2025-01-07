@@ -3,109 +3,58 @@
 <html>
 
 <head>
-  <meta name=viewport content=“width=1000”>
+  <meta name=viewport content="width=1100">
   <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
-  <style type="text/css">
-    /* Template from Han Guo */
-
-    a {
-      color: #1772d0;
-      text-decoration: none;
-    }
-
-    a:focus,
-    a:hover {
-      color: #f09228;
-      text-decoration: none;
-    }
-
-    body,
-    td,
-    th,
-    tr,
-    p,
-    a {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 16px
-    }
-
-    strong {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 16px;
-    }
-
-    heading {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 22px;
-    }
-
-    papertitle {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 16px;
-      font-weight: 700
-    }
-
-    name {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 35px;
-    }
-
-    .one {
-      width: 160px;
-      height: 160px;
-      position: relative;
-    }
-
-    .two {
-      width: 160px;
-      height: 160px;
-      position: absolute;
-      transition: opacity .2s ease-in-out;
-      -moz-transition: opacity .2s ease-in-out;
-      -webkit-transition: opacity .2s ease-in-out;
-    }
-
-    .fade {
-      transition: opacity .2s ease-in-out;
-      -moz-transition: opacity .2s ease-in-out;
-      -webkit-transition: opacity .2s ease-in-out;
-    }
-
-    span.highlight {
-      background-color: #ffffd0;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" type="image/png" href="seal_icon.png">
   <title>Somesh Singh</title>
   <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <script src="./utils.js"></script>
+  <script>
+        async function loadQuotes() {
+            const quotes = [
+            {
+                "quote": "I couldn't help wondering was my beloved game of chess over --- It turned that the world still wanted a human champion",
+                "author": `Gary Kasparov, on "The Brain's Last Stand"`
+            },
+        ]
+        
+            // Pick a random quote
+            const randomIndex = Math.floor(Math.random() * quotes.length);
+            const randomQuote = quotes[randomIndex];
+            // Display the quote
+            document.getElementById('quote-text').innerText = `"${randomQuote.quote}"`;
+            document.getElementById('quote-author').innerText = `- ${randomQuote.author}`;
+        }
+        // Call the function on page load
+        window.onload = loadQuotes;
+    </script>
 </head>
 
 <body>
-  <table width="1000" border="0" align="center" cellspacing="0" cellpadding="0">
+  <table width="1100" border="0" align="center" cellspacing="0" cellpadding="0">
     <tr>
       <td>
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
             <td width="67%" valign="middle">
-              <p align="center">
-                <name>Somesh Singh</name>
+              <p align="center"><name>Somesh Singh</name></p>
               <p>
-                I am a research associate at Adobe, focusing on Large Language and Vision Models and their alignment with our world. Currently, I am working on reasoning and planning through external and internal agents.
+                I am a PhD candidate in Computer Science Department at the University at Buffalo and IIIT Delhi, advised by <a href="https://cse.buffalo.edu/~doermann/" target="_blank">Prof. David Doermann</a> and <a href="https://www.iiitd.ac.in/rajivratn" target="_blank">Dr. Rajiv Ratn Shah</a> respectively. I work as a research associate at Adobe, my work explores Large Language and Vision Models, reasoning, and planning through external and internal agents. My PhD is generously funded by Adobe.
                 <br><br>
-                My research interests lie at the intersection of human behavior and machine learning. With over 100 billion individuals shaping our world, each life leaves a unique trajectory influenced by "decisions" and "randomness," ultimately shaping our preferences or "behavior" towards things, people, or even ourselves. A list of works related to behavior in the wild by me and my team can be found at <a href="https://behavior-in-the-wild.github.io" target="_blank">Behavior in the Wild</a>.
+                My research interests lie at the intersection of human behavior and machine learning. With billions of individuals shaping our world, each life leaves a unique trajectory influenced and defined by "decisions" and randomness ultimately shaping our preferences or "behavior" towards things, people, or even ourselves. A list of works related to behavior in the wild by me and my team can be found at <a href="https://behavior-in-the-wild.github.io" target="_blank">Behavior in the Wild</a>.
                 <br><br>
                 I obtained my Bachelor's degree in Computer Science with a minor in Data Science from <a href="https://www.bits-pilani.ac.in/" target="_blank">BITS Pilani</a>, where I completed my thesis on digital content creation at <a href="https://www.adobe.com/home" target="_blank">Adobe</a>. During this time, I also worked as a research intern at <a href="https://midas.iiitd.ac.in/" target="_blank">MIDAS Lab</a> under the guidance of <a href="https://www.iiitd.ac.in/rajivratn" target="_blank">Dr. Rajiv Ratn Shah</a>.
                 <br><br>
-                I am an avid chess player and enjoy collecting my thoughts, headcannons, and research ideas in my <a href="blog.html">blog (coming soon)</a>. Also, check out the work of my frequent collaborators <a href="">Harini</a> and <a href="">Yaman</a>!
+                I am an avid chess player and enjoy collecting my thoughts, blueprints, and research ideas in my <a href="blog.html">blog (coming soon)</a>. Also, check out the work of my frequent collaborators <a href="https://harini-si.github.io/">Harini</a> and <a href="https://sites.google.com/view/yaman-kumar/">Yaman</a>!
               </p>
               <p align=center>
                 <a href="https://scholar.google.com/citations?user=3Unw6gkAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
                 <a href="https://github.com/someshsingh22"> GitHub </a> &nbsp/&nbsp
                 <!-- <a href="Resume.pdf"> Resume </a> &nbsp/&nbsp TODO:-->
                 <a href="https://twitter.com/someshsingh22"> Twitter </a> &nbsp/&nbsp
-                <a href="https://www.linkedin.com/in/someshsingh22/"> Linkedin </a> 
+                <a href="https://www.linkedin.com/in/someshsingh22/"> LinkedIn </a> 
 
               </p>
             </td>
@@ -115,6 +64,10 @@
           </tr>
         </table>
 
+        <div id="quote-section" style="text-align: center; font-style: italic; margin: 30px 0;">
+            <p id="quote-text">Loading quote...</p>
+            <p id="quote-author"></p>
+        </div>
 
         <!-- News -->
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
@@ -122,8 +75,9 @@
             <td width="60%" valign="middle">
               <heading>News</heading>
               <ul>
+                <li> <b>2025-01</b> Started PhD at <a href="https://www.buffalo.edu/" target="_blank">Buffalo University</a> and <a href="https://www.iiitd.ac.in/" target="_blank">IIIT Delhi</a>, advised by <a href="https://cse.buffalo.edu/~doermann/" target="_blank">Prof. David Doermann</a> and <a href="https://www.iiitd.ac.in/rajivratn" target="_blank">Dr. Rajiv Ratn Shah</a>, funded by Adobe. </li>
                 <li> <b>2024-10</b> <a href="https://arxiv.org/abs/2309.00378"> Long-Term Ad Memorability</a>: Understanding & Generating Memorable Ads, is accepted to <i>WACV'2025</i>. </li>
-                <li> <b>2024-10</b> Released <a href="https://arxiv.org/abs/2410.02653"> PersuasionArena</a> A large-scale automated leaderboard of LLM's persuasion capabilities.</li>
+                <li> <b>2024-10</b> Released <a href="https://arxiv.org/abs/2410.02653"> PersuasionArena</a>, a large-scale automated leaderboard of LLMs' persuasion capabilities.</li>
                 <li> <b>2024-10</b> <a href="https://patents.google.com/patent/US20240355020A1/en"> Patent</a> on "Digital content analysis" is granted.</li>
                 <li> <b>2024-05</b> Released <a href="https://arxiv.org/pdf/2408.03561"> BehaviorLLaVA</a>, training VLMs on human behavior improves performance on close to 50 tasks.</li>
                 <li> <b>2024-04</b> <a href="https://new.express.adobe.com/schedule?postId=new">Adobe Caption Writer</a> is released, a tool to generate social media captions in a click.</li>
