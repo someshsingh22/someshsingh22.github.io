@@ -64,3 +64,103 @@ a {
   span.highlight {
     background-color: #ffffd0;
   }
+
+  body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+  }
+
+  name {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
+
+  /* Preserve image aspect ratio */
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Add some spacing between news items */
+  .list-unstyled li {
+    margin-bottom: 1rem;
+  }
+
+  /* Project styling */
+  .project-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Control profile image size */
+  .col-lg-4.col-sm-6.col-8 img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Project container fixes */
+  .project-container {
+    overflow-x: hidden;
+  }
+
+  .project-container .row {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  /* Force project images to maintain their column width */
+  .project-container [id$="-img"] {
+    flex-shrink: 0;
+    min-width: 0;
+  }
+
+  /* Handle text wrapping in project descriptions */
+  .project-container [id$="-txt"] {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+
+  /* Ensure proper spacing between project elements */
+  .project-container .row {
+    margin-bottom: 2rem;
+  }
+
+  /* Ensure text doesn't overflow on mobile */
+  @media (max-width: 768px) {
+    name {
+      font-size: 28px;
+    }
+    
+    .heading {
+      font-size: 22px;
+    }
+
+    .project-container h3 {
+        font-size: 1.2rem;
+        word-wrap: break-word;
+    }
+    
+    .project-container p {
+        font-size: 0.9rem;
+    }
+
+    /* Ensure image columns maintain width on mobile */
+    .project-container [id$="-img"] {
+        padding-right: 15px;
+    }
+  }
