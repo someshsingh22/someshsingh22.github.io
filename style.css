@@ -8,6 +8,7 @@ body {
     font-family: var(--font-primary);
     line-height: 1.6;
     color: #2d3748;
+    font-size: 18px; /* Increased base font size */
 }
 
 /* Navbar Styling */
@@ -78,6 +79,38 @@ a:hover {
     
     name {
         font-size: 2rem;
+    }
+
+    body {
+        font-size: 16px; /* Slightly smaller but still readable on mobile */
+    }
+
+    .container {
+        padding-left: 20px;  /* Increase padding for better readability */
+        padding-right: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 1.2em;
+    }
+
+    /* Adjust heading sizes for mobile */
+    h2.heading {
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
+
+    /* Adjust list spacing */
+    .list-unstyled li {
+        margin-bottom: 1.2rem;
+        padding-left: 0;
+    }
+
+    /* Improve link readability */
+    a {
+        font-weight: 500;
     }
 }
 
@@ -221,4 +254,15 @@ html {
 /* Adjust top padding since we removed the header */
 body > div:first-of-type {
     padding-top: 56px;  /* Matches new navbar height */
+}
+
+/* Update container max-width for better content width control */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Improve spacing between sections */
+.mb-4 {
+    margin-bottom: 2rem !important;
 }
