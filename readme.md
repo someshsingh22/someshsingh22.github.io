@@ -1,25 +1,6 @@
-# Publications Management System
+# My Website
 
-## Overview
-
-This system manages academic publications and research papers. It provides functionality to store, retrieve, and manage publication records.
-
-## Table of Contents
-
-- [Setup](#setup)
-- [Usage](#usage)
-- [Adding New Publications](#adding-new-publications)
-
-## Setup
-
-1. Clone the repository
-2. Install dependencies
-3. Configure database settings
-4. Run migrations
-
-## Usage
-
-Describe basic usage instructions here...
+This is my personal website. 
 
 ## Adding New Publications
 
