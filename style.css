@@ -1,14 +1,14 @@
 /* Modern Typography */
 :root {
-    --font-primary: 'Inter', sans-serif;
-    --font-display: 'Playfair Display', serif;
+    --font-primary: 'Source Sans Pro', 'Roboto', sans-serif;
+    --font-display: 'Roboto Condensed', sans-serif;
 }
 
 body {
     font-family: var(--font-primary);
-    line-height: 1.6;
+    line-height: 1.3;
     color: #2d3748;
-    font-size: 18px; /* Increased base font size */
+    font-size: 15px;
 }
 
 /* Navbar Styling */
@@ -82,18 +82,18 @@ a:hover {
     }
 
     body {
-        font-size: 16px; /* Slightly smaller but still readable on mobile */
+        font-size: 15px;
     }
 
     .container {
-        padding-left: 20px;  /* Increase padding for better readability */
-        padding-right: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     p {
-        font-size: 16px;
-        line-height: 1.6;
-        margin-bottom: 1.2em;
+        font-size: 15px;
+        line-height: 1.4;
+        margin-bottom: 1em;
     }
 
     /* Adjust heading sizes for mobile */
@@ -104,7 +104,7 @@ a:hover {
 
     /* Adjust list spacing */
     .list-unstyled li {
-        margin-bottom: 1.2rem;
+        margin-bottom: 0.8rem;
         padding-left: 0;
     }
 
@@ -174,7 +174,8 @@ span.highlight {
 
 /* Add some spacing between news items */
 .list-unstyled li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
+  line-height: 1.2;
 }
 
 /* Project styling */
@@ -221,7 +222,7 @@ span.highlight {
 
 /* Ensure proper spacing between project elements */
 .project-container .row {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 /* Ensure text doesn't overflow on mobile */
@@ -256,13 +257,57 @@ body > div:first-of-type {
     padding-top: 56px;  /* Matches new navbar height */
 }
 
-/* Update container max-width for better content width control */
+/* Update container max-width for more compact content */
 .container {
-    max-width: 1140px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
-/* Improve spacing between sections */
+/* Reduce spacing between sections */
 .mb-4 {
-    margin-bottom: 2rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+/* Adjust heading sizes */
+h2.heading {
+    font-size: 20px;
+    margin-bottom: 0.8rem;
+}
+
+/* Reduce paragraph spacing */
+p {
+    margin-bottom: 0.4em;  /* Reduced from 0.8em */
+    line-height: 1.2;      /* Slightly reduced line height */
+}
+
+/* Adjust spacing in about section */
+#about p {
+    margin-bottom: 0.8em;  /* Slightly larger spacing for about section paragraphs */
+}
+
+/* News Section Styling */
+.news-container {
+    max-height: 200px;  /* Fixed height for scrollable area */
+    overflow-y: auto;   /* Enable vertical scrolling */
+    padding-right: 10px; /* Space for scrollbar */
+    margin-bottom: 2rem;
+}
+
+/* Customize scrollbar */
+.news-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.news-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.news-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+}
+
+.news-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
