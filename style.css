@@ -90,12 +90,6 @@ a:hover {
         padding-right: 15px;
     }
 
-    p {
-        font-size: 15px;
-        line-height: 1.4;
-        margin-bottom: 1em;
-    }
-
     /* Adjust heading sizes for mobile */
     h2.heading {
         font-size: 20px;
