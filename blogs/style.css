@@ -1,0 +1,89 @@
+/* Blog-specific styles */
+
+
+.blog-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.blog-date {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+/* Layout styles */
+.blog-container {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1000px) 300px;
+  gap: 40px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* Outline styles */
+.outline {
+  position: sticky;
+  top: 96px;
+  height: calc(100vh - 96px);
+  overflow-y: auto;
+  padding: 20px;
+  font-size: 0.9em;
+}
+
+.outline ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.outline ul ul {
+  padding-left: 20px;
+}
+
+.outline a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 4px 0;
+}
+
+.outline a:hover {
+  color: #007bff;
+}
+
+/* Highlights styles */
+.highlights {
+  position: sticky;
+  top: 96px;
+  height: calc(100vh - 96px);
+  overflow-y: auto;
+  padding: 25px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.highlight-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-left: 3px solid #007bff;
+  background-color: white;
+}
+
+.highlight-title {
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+/* Responsive styles */
+@media (max-width: 1400px) {
+  .blog-container {
+    grid-template-columns: 1fr;
+  }
+  .outline, .highlights {
+    display: none;
+  }
+} 
