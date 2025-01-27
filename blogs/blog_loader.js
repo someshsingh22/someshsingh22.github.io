@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.body.innerHTML = navigation + `
         <div style="padding-top: 76px;">
             <div class="blog-container">
-                <div class="outline">
+                <div class="outline" style="width: 250px;">
                     <h4>Contents</h4>
                     <ul id="outline-list"></ul>
                 </div>
