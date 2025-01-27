@@ -74,12 +74,35 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="blog-container">
                 <div class="outline">
                     <h4>Contents</h4>
-                    <ul></ul>
+                    <ul id="outline-list"></ul>
                 </div>
                 ${bodyContent}
             </div>
         </div>
     `;
+
+    // Generate outline from headings
+    function generateOutline() {
+        const outlineList = document.getElementById('outline-list');
+        const headings = document.querySelectorAll('.blog-text h2, .blog-text h3');
+        
+        headings.forEach(heading => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            
+            // Add appropriate class based on heading level
+            if (heading.tagName === 'H3') {
+                li.classList.add('sub-item');
+            }
+            
+            a.href = `#${heading.id}`;
+            a.textContent = heading.textContent;
+            li.appendChild(a);
+            outlineList.appendChild(li);
+        });
+    }
+
+    generateOutline();
 
     // Append footer
     document.body.innerHTML += footer;
