@@ -16,7 +16,7 @@
 /* Layout styles */
 .blog-container {
   display: grid;
-  grid-template-columns: 200px minmax(0, 1000px) 300px;
+  grid-template-columns: 200px minmax(0, 1000px);
   gap: 40px;
   max-width: 1600px;
   margin: 0 auto;
@@ -52,38 +52,73 @@
 .outline a:hover {
   color: #007bff;
 }
-
-/* Highlights styles */
-.highlights {
-  position: sticky;
-  top: 96px;
-  height: calc(100vh - 96px);
-  overflow-y: auto;
-  padding: 25px;
-  background-color: #f8f9fa;
-  border-radius: 8px;
-  width: 100%;
-}
-
-.highlight-item {
-  margin-bottom: 20px;
-  padding: 10px;
-  border-left: 3px solid #007bff;
-  background-color: white;
-}
-
-.highlight-title {
-  font-weight: bold;
-  color: #007bff;
-  margin-bottom: 5px;
-}
-
 /* Responsive styles */
 @media (max-width: 1400px) {
   .blog-container {
     grid-template-columns: 1fr;
   }
-  .outline, .highlights {
+  .outline {
     display: none;
   }
-} 
+}
+
+/* Typography improvements */
+.blog-content {
+  line-height: 1.8;  /* Increased line spacing */
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.1rem;
+}
+
+.blog-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.blog-content h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 2.5rem 0 1.5rem;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.blog-content h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 2rem 0 1.2rem;
+}
+
+/* Content layout improvements */
+.blog-text {
+  max-width: 100%;
+}
+
+.blog-text p {
+  margin-bottom: 1.5rem;  /* More spacing between paragraphs */
+}
+
+/* Section spacing */
+.blog-text section {
+  margin: 3rem 0;  /* Increased section spacing */
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Image and figure styling */
+.blog-text figure {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.blog-text figure img {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-text figure figcaption {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+}
