@@ -7,6 +7,7 @@ This system automatically indexes all blog posts in the `blogs` directory, exclu
 1. All blog posts should be placed in the `blogs` directory
 2. The `blogs/blog_list.json` file contains metadata for all blog posts
 3. The `blog.html` page displays this list of blog posts using JavaScript
+4. A pre-commit Git hook automatically updates the blog list whenever you make a commit
 
 ## Adding a New Blog Post
 
@@ -16,17 +17,18 @@ This system automatically indexes all blog posts in the `blogs` directory, exclu
    - A title in an `<h1>` tag
    - A date in a `.blog-date` element (format: "Published on: YYYY-MM-DD")
    - Content in the `.blog-text` element
+4. Commit your changes! The pre-commit hook will automatically update the blog list
 
-## Updating the Blog Index
+## Manual Updating (if needed)
 
-After adding or updating blog posts, run the update script to regenerate the blog list:
+You can manually update the blog index by running:
 
 ```bash
 # Install required dependencies first (one-time setup)
-npm install jsdom
+npm install
 
 # Run the update script
-node update_blog_list.js
+npm run update-blog-list
 ```
 
 This will:
@@ -34,6 +36,12 @@ This will:
 2. Extract metadata from each blog post
 3. Update the `blogs/blog_list.json` file
 4. Sort blog posts by date (newest first)
+
+## Pre-Commit Hook
+
+The system uses a Git pre-commit hook to automatically update the blog list whenever you make a commit. This ensures that your blog index is always up to date.
+
+If you clone this repository, the hook will be set up automatically when you run `npm install`.
 
 ## Customizing the Display
 
@@ -46,5 +54,5 @@ You can customize the blog index display by editing:
 If a blog post doesn't appear in the index:
 1. Make sure it's in the correct directory
 2. Check that it has the required HTML structure
-3. Run the update script again
+3. Run the update script manually
 4. Check the console for any errors 
