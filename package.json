@@ -1,0 +1,18 @@
+{
+  "name": "somesh-singh-blog",
+  "version": "1.0.0",
+  "description": "Blog auto-indexing system for Somesh Singh's website",
+  "main": "index.js",
+  "scripts": {
+    "update-blog-list": "node update_blog_list.js",
+    "prepare": "husky"
+  },
+  "author": "Somesh Singh",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^22.1.0"
+  },
+  "devDependencies": {
+    "husky": "^9.0.10"
+  }
+}

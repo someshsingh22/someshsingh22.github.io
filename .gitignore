@@ -1,2 +1,5 @@
 .DS_Store
 blogs/raw
+node_modules/
+.husky/
+.env
