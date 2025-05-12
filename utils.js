@@ -36,9 +36,19 @@ function createProjectElement(id, project){
  */
 async function loadBlogIndex(containerSelector) {
   try {
-    // Fetch the blog metadata from the JSON file
-    const response = await fetch('/blogs/blog_list.json');
-    if (!response.ok) throw new Error('Failed to fetch blog list');
+    // Get the base URL - handles both GitHub Pages and local development
+    const baseUrl = window.location.pathname.includes('github.io') 
+      ? window.location.pathname.split('/').slice(0, -1).join('/') 
+      : '';
+    
+    console.log('Base URL detected:', baseUrl);
+    
+    // Fetch the blog metadata from the JSON file with the correct base path
+    const response = await fetch(`${baseUrl}/blogs/blog_list.json`);
+    if (!response.ok) {
+      console.error('HTTP Error:', response.status, response.statusText);
+      throw new Error(`Failed to fetch blog list (HTTP ${response.status})`);
+    }
 
     const data = await response.json();
     const blogs = data.blogs || [];
@@ -73,11 +83,12 @@ async function loadBlogIndex(containerSelector) {
         day: 'numeric'
       });
       
+      // Use the same base URL for blog links
       blogEntry.innerHTML = `
-        <h2><a href="/blogs/${blog.file}">${blog.title}</a></h2>
+        <h2><a href="${baseUrl}/blogs/${blog.file}">${blog.title}</a></h2>
         <div class="blog-date">${formattedDate}</div>
         <p class="blog-preview">${blog.summary}</p>
-        <a href="/blogs/${blog.file}" class="read-more">Read More</a>
+        <a href="${baseUrl}/blogs/${blog.file}" class="read-more">Read More</a>
       `;
       
       blogList.appendChild(blogEntry);
@@ -89,7 +100,12 @@ async function loadBlogIndex(containerSelector) {
     console.error('Error loading blog index:', error);
     const blogContainer = document.querySelector(containerSelector);
     if (blogContainer) {
-      blogContainer.innerHTML = '<h1>Blog Posts</h1><p>Error loading blog posts. Please try again later.</p>';
+      blogContainer.innerHTML = `
+        <h1>Blog Posts</h1>
+        <p>Error loading blog posts. Please try again later.</p>
+        <p class="text-danger">Error details: ${error.message}</p>
+        <p>Make sure the file blogs/blog_list.json exists and is accessible.</p>
+      `;
     }
   }
 }
