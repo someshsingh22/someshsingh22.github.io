@@ -1,16 +1,16 @@
 {
   "blogs": [
     {
+      "file": "agents.html",
+      "title": "A Mind-Map of Reasoning, Tools, Agents, and Collaboration",
+      "date": "2025-05-11",
+      "summary": "Large Language Models (LLMs) have rapidly advanced in their ability to not only generate text but also reason and act as autonomous agents. Researcher..."
+    },
+    {
       "file": "transsuasion.html",
       "title": "Measuring and Improving Persuasiveness of Large Language Models",
       "date": "2024-03-14",
       "summary": "Persuasion lies at the heart of effective communication. From Apple's iconic \"Think Different\" campaign to Nike's \"Just Do It\", carefully crafted mess..."
-    },
-    {
-      "file": "agents.html",
-      "title": "A Mind-Map of Reasoning, Tools, Agents, and Collaboration",
-      "date": "2023-05-11",
-      "summary": "Large Language Models (LLMs) have rapidly advanced in their ability to not only generate text but also reason and act as autonomous agents. Researcher..."
     }
   ]
 }
