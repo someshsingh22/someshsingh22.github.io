@@ -38,3 +38,20 @@ To add a new publication to display on the website:
 3. Add the project image to the `figures/` directory
 
 The `utils.js` function will automatically format and display the publication entry on the website.
+
+## Adding New Blog Posts
+
+### How It Works
+
+- Blogs are stored in the `blogs` directory
+- Git pre-commit hook automatically updates `blog_list.json` on commit
+- `blog.html` displays the list using the metadata from `blog_list.json`
+
+## Adding a New Blog Post
+
+1. Create a new HTML file in the `blogs` directory (copy `blog_template.html` as a starting point)
+2. Include:
+   - Title in an `<h1>` tag
+   - Date in a `.blog-date` element (format: "Published on: YYYY-MM-DD") 
+   - Content in `.blog-text` element
+3. Commit your changes - the pre-commit hook handles the rest!
