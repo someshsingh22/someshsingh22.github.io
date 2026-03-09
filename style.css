@@ -1,111 +1,205 @@
 /* Modern Typography */
 :root {
-    --font-primary: 'Source Sans Pro', 'Roboto', sans-serif;
-    --font-display: 'Roboto Condensed', sans-serif;
+  --font-primary: 'Inter', sans-serif;
+  --font-display: 'Merriweather', serif;
+  --color-text-main: #222222;
+  --color-text-muted: #555555;
+  --color-link: #1a4f8b;
+  --color-link-hover: #113661;
+  --bg-color: #fafafa;
 }
 
 body {
-    font-family: var(--font-primary);
-    line-height: 1.3;
-    color: #2d3748;
-    font-size: 15px;
+  font-family: var(--font-primary);
+  line-height: 1.6;
+  color: var(--color-text-main);
+  font-size: 16px;
+  background-color: var(--bg-color);
 }
 
 /* Navbar Styling */
 .navbar {
-    padding: 0.5rem 0;
-    transition: all 0.3s ease;
-    min-height: 56px;
+  padding: 1rem 0;
+  transition: all 0.3s ease;
+  min-height: 76px;
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .navbar-brand {
-    font-family: var(--font-display);
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: #2d3748;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-text-main);
+  letter-spacing: -0.02em;
 }
 
 .nav-link {
-    font-weight: 500;
-    color: #4a5568;
-    margin: 0 0.5rem;
-    transition: color 0.3s ease;
+  font-family: var(--font-primary);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  margin: 0 0.8rem;
+  transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-    color: #1772d0;
+  color: var(--color-text-main);
+}
+
+/* Dropdown Styling */
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.98) !important;
+  backdrop-filter: blur(10px);
+  padding: 0.5rem 0;
+  margin-top: 5px !important;
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+
+.dropdown-item {
+  font-family: var(--font-primary);
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  padding: 0.5rem 1.25rem;
+  transition: all 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(26, 79, 139, 0.05);
+  color: var(--color-link);
+}
+
+.dropdown-toggle::after {
+  vertical-align: middle;
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-left: 0.3em solid transparent;
+  opacity: 0.5;
 }
 
 /* Typography Updates */
-h1, h2, .heading {
-    font-family: var(--font-display);
-    color: #1a202c;
+h1,
+h2,
+h3,
+.heading {
+  font-family: var(--font-display);
+  color: var(--color-text-main);
+  letter-spacing: -0.01em;
 }
 
 name {
-    font-family: var(--font-display);
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #1a202c;
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-text-main);
+}
+
+/* Cute Buttons for Links */
+.btn-cute {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-text-main);
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 20px;
+  padding: 0.35rem 0.85rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.btn-cute i {
+  font-size: 0.9em;
+  color: var(--color-text-muted);
+  transition: all 0.2s ease;
+}
+
+.btn-cute:hover {
+  background-color: #e9ecef;
+  transform: translateY(-1px);
+  color: var(--color-link-hover);
+  text-decoration: none;
+}
+
+.btn-cute:hover i {
+  color: var(--color-link-hover);
+}
+
+/* Ensure empty columns shrink if they have no content */
+.project-container [id$="-img"]:empty {
+  color: var(--color-link-hover);
 }
 
 papertitle {
-    font-family: var(--font-primary);
-    font-weight: 600;
-    color: #2563eb;
-    transition: color 0.2s ease;
+  font-family: var(--font-primary);
+  font-weight: 600;
+  color: var(--color-text-main);
+  transition: color 0.2s ease;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  display: inline-block;
+  margin-bottom: 0.25rem;
 }
 
 a:hover papertitle {
-    color: #1d4ed8;
+  color: var(--color-link);
 }
 
 /* Link styling */
 a {
-    color: #1772d0;
-    text-decoration: none;
-    transition: color 0.2s ease;
+  color: var(--color-link);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  position: relative;
 }
 
 a:hover {
-    color: #f09228;
+  color: var(--color-link-hover);
+}
+
+p a {
+  border-bottom: 1px solid rgba(26, 79, 139, 0.3);
+}
+
+p a:hover {
+  border-bottom: 1px solid var(--color-link-hover);
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-    .navbar-brand {
-        font-size: 1.25rem;
-    }
-    
-    name {
-        font-size: 2rem;
-    }
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
 
-    body {
-        font-size: 15px;
-    }
+  name {
+    font-size: 2rem;
+  }
 
-    .container {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+  body {
+    font-size: 15px;
+  }
 
-    /* Adjust heading sizes for mobile */
-    h2.heading {
-        font-size: 20px;
-        margin-bottom: 1rem;
-    }
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-    /* Adjust list spacing */
-    .list-unstyled li {
-        margin-bottom: 0.8rem;
-        padding-left: 0;
-    }
+  /* Adjust heading sizes for mobile */
+  h2.heading {
+    font-size: 22px;
+    margin-bottom: 1.5rem;
+  }
 
-    /* Improve link readability */
-    a {
-        font-weight: 500;
-    }
+  /* Adjust list spacing */
+  .list-unstyled li {
+    margin-bottom: 1rem;
+    padding-left: 0;
+  }
 }
 
 body,
@@ -114,18 +208,19 @@ th,
 tr,
 p,
 a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+  font-family: var(--font-primary);
 }
 
-strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+strong,
+b {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  color: var(--color-text-main);
 }
 
 heading {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-family: var(--font-display);
+  font-size: 24px;
 }
 
 .one {
@@ -154,10 +249,12 @@ span.highlight {
 }
 
 .heading {
-  font-size: 24px;
-  font-weight: bold;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 5px;
+  font-size: 28px;
+  font-weight: 400;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
+  margin-bottom: 1.5rem;
+  color: var(--color-text-main);
 }
 
 /* Preserve image aspect ratio */
@@ -178,10 +275,18 @@ span.highlight {
   height: auto;
 }
 
-/* Control profile image size */
+/* Control profile image size and style */
 .col-lg-4.col-sm-6.col-8 img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  max-width: 280px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s ease;
+}
+
+.col-lg-4.col-sm-6.col-8 img:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
 
 /* Project container fixes */
@@ -193,19 +298,14 @@ span.highlight {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  padding: 1rem 0;
+  background-color: transparent;
+  transition: transform 0.3s ease;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.project-container img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 1rem;
-}
-
-/* Force project images to maintain their column width */
-.project-container [id$="-img"] {
-  flex-shrink: 0;
-  min-width: 0;
-}
 
 /* Handle text wrapping in project descriptions */
 .project-container [id$="-txt"] {
@@ -226,82 +326,110 @@ span.highlight {
   }
 
   .project-container h3 {
-      font-size: 1.2rem;
-      word-wrap: break-word;
+    font-size: 1.2rem;
+    word-wrap: break-word;
   }
-  
+
   .project-container p {
-      font-size: 0.9rem;
+    font-size: 0.9rem;
   }
 
   /* Ensure image columns maintain width on mobile */
   .project-container [id$="-img"] {
-      padding-right: 15px;
+    padding-right: 15px;
   }
 }
 
 /* Add at the top of your CSS file */
 html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 76px; /* Same as navbar height to prevent section headers from being hidden */
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
 }
 
 /* Adjust top padding since we removed the header */
-body > div:first-of-type {
-    padding-top: 56px;  /* Matches new navbar height */
+body>div:first-of-type {
+  padding-top: 76px;
 }
 
 /* Update container max-width for more compact content */
 .container {
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-/* Reduce spacing between sections */
-.mb-4 {
-    margin-bottom: 1.5rem !important;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 /* Adjust heading sizes */
 h2.heading {
-    font-size: 20px;
-    margin-bottom: 0.8rem;
+  font-size: 28px;
+  margin-bottom: 1.5rem;
 }
 
 /* Reduce paragraph spacing */
 p {
-    margin-bottom: 0.4em;  /* Reduced from 0.8em */
-    line-height: 1.2;      /* Slightly reduced line height */
+  margin-bottom: 1em;
+  line-height: 1.7;
+  color: var(--color-text-muted);
+}
+
+.lead-text p {
+  font-size: 1.05rem;
+  color: var(--color-text-main);
 }
 
 /* Adjust spacing in about section */
 #about p {
-    margin-bottom: 0.8em;  /* Slightly larger spacing for about section paragraphs */
+  margin-bottom: 1.2em;
 }
 
 /* News Section Styling */
 .news-container {
-    max-height: 200px;  /* Fixed height for scrollable area */
-    overflow-y: auto;   /* Enable vertical scrolling */
-    padding-right: 10px; /* Space for scrollbar */
-    margin-bottom: 2rem;
+  max-height: 300px;
+  /* Slightly taller for breathing room */
+  overflow-y: auto;
+  padding-right: 15px;
+  margin-bottom: 2rem;
+}
+
+.news-container .list-unstyled li {
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+
+.news-container b {
+  color: var(--color-text-main);
+  font-family: var(--font-primary);
+  font-weight: 500;
+  margin-right: 0.5rem;
 }
 
 /* Customize scrollbar */
 .news-container::-webkit-scrollbar {
-    width: 6px;
+  width: 6px;
 }
 
 .news-container::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 3px;
+  background: transparent;
 }
 
 .news-container::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 3px;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
 }
 
 .news-container::-webkit-scrollbar-thumb:hover {
-    background: #555;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Quote styling */
+.quote-text {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  color: #666;
+  letter-spacing: 0.02em;
+}
+
+.quote-text p:last-child {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #999;
 }
