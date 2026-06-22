@@ -1,5 +1,6 @@
 // Image dimensions mapping to prevent layout shifts
 const imageDimensions = {
+  "figures/zipp.webp": { width: 3594, height: 1533 },
   "figures/experigen.png": { width: 2415, height: 770, webp: "figures/experigen.webp" },
   "figures/bllava.jpeg": { width: 1384, height: 666, webp: "figures/bllava.webp" },
   "figures/transsuasion.png": { width: 970, height: 664, webp: "figures/transsuasion.webp" },
@@ -33,7 +34,7 @@ function createProjectElement(id, project) {
   const heightAttr = dims.height ? ` height="${dims.height}"` : '';
 
   // Lazy load images below the fold (first 2 projects are above fold)
-  const loadingAttr = ['experigen', 'memorability-tot'].includes(id) ? '' : ' loading="lazy"';
+  const loadingAttr = ['zipp', 'experigen'].includes(id) ? '' : ' loading="lazy"';
 
   // Use WebP with fallback if available
   let html_img;

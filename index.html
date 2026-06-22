@@ -119,6 +119,10 @@
       min-height: 120px;
     }
 
+    #zipp-img img {
+      aspect-ratio: 3594 / 1533;
+    }
+
     #experigen-img img {
       aspect-ratio: 2415 / 770;
     }
@@ -319,6 +323,8 @@
           <h2 class="heading mb-3">News</h2>
           <div class="news-container">
             <ul class="list-unstyled">
+              <li> <b>2026-06</b> <a href="https://behavior-in-the-wild.github.io/zipp.html"> ZIPP: Zero-shot Image
+                  Personalization from Personas</a> is accepted to <i>ECCV'2026</i>. </li>
               <li> <b>2026-01</b> Promoted to <b>Research Scientist</b> at <a href="https://adobe-mdsr.github.io/"
                   target="_blank">Adobe MDSR Labs</a>. </li>
               <li> <b>2026-02</b> <a href="https://arxiv.org/abs/2602.07983"> EXPERIGEN: Accelerating Social Science
@@ -365,6 +371,26 @@
           <h2 class="heading mb-3">Research</h2>
           <div class="project-container">
             <!-- Each project will be a row -->
+            <div class="row mb-4" id="zipp">
+              <div class="col-md-3" id="zipp-img"></div>
+              <div class="col-md-9" id="zipp-txt"></div>
+            </div>
+            <script type="text/javascript">
+              createProjectElement(
+                id = "zipp", {
+                title: "ZIPP: Zero-shot Image Personalization from Personas",
+                paper_url: "https://arxiv.org/abs/2606.08841",
+                authors: "Harini S I*, <b>Somesh Singh</b>*, Yaman Kumar Singla, David Doermann, Rajiv Ratn Shah",
+                conference: "ECCV'26",
+                image: "figures/zipp.webp",
+                others: null,
+                links: [
+                  { name: "Website", url: "https://behavior-in-the-wild.github.io/zipp.html" },
+                  { name: "Paper", url: "https://arxiv.org/abs/2606.08841" }
+                ]
+              });
+            </script>
+
             <div class="row mb-4" id="experigen">
               <div class="col-md-3" id="experigen-img"></div>
               <div class="col-md-9" id="experigen-txt"></div>
