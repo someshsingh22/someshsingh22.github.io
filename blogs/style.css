@@ -1,129 +1,265 @@
-/* Blog-specific styles */
+/* Blog-specific styles - Premium Minimalist Layout */
 
-
-.blog-content img {
-  max-width: 100%;
-  height: auto;
-  margin: 20px 0;
+:root {
+  --color-border: rgba(0, 0, 0, 0.06);
+  --color-bg-sidebar: #ffffff;
+  --max-content-width: 680px; /* Optimal reading line length (approx 70-80 chars) */
 }
 
-.blog-date {
-  color: #666;
-  font-style: italic;
-  margin-bottom: 20px;
+body {
+  background-color: #fafafa;
 }
 
-/* Layout styles */
-.blog-container {
+/* Container grid for blog reading layout */
+.blog-layout {
   display: grid;
-  grid-template-columns: 250px minmax(0, 1000px);
-  gap: 40px;
-  max-width: 1600px;
+  grid-template-columns: minmax(0, 1fr) var(--max-content-width) 240px minmax(0, 1fr);
+  gap: 60px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 3rem 1.5rem 5rem;
 }
 
-/* Outline styles */
-.outline {
-  position: sticky;
-  top: 100px;
-  padding: 10px;
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  max-width: 300px;
-  margin-right: 30px;
-}
-
-.outline ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.outline li {
-  margin: 10px 0;
-}
-
-.outline .sub-item {
-  padding-left: 20px;
-}
-
-.outline a {
-  color: #333;
-  text-decoration: none;
-}
-
-.outline a:hover {
-  color: #007bff;
-}
-/* Responsive styles */
-@media (max-width: 1400px) {
-  .blog-container {
+@media (max-width: 1200px) {
+  .blog-layout {
     grid-template-columns: 1fr;
+    max-width: 720px;
+    padding: 2rem 1.5rem 4rem;
+    gap: 30px;
   }
-  .outline {
-    display: none;
+  
+  .blog-sidebar {
+    display: none !important; /* Hide sidebar Table of Contents on mobile */
   }
 }
 
-/* Typography improvements */
+/* Main Content Area */
+.blog-main {
+  grid-column: 2;
+  grid-row: 1;
+  min-width: 0; /* Prevents overflow in flex/grid items */
+}
+
+@media (max-width: 1200px) {
+  .blog-main {
+    grid-column: 1;
+  }
+}
+
+/* Article Styling */
 .blog-content {
-  line-height: 1.8;  /* Increased line spacing */
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.1rem;
+  font-family: var(--font-display), 'Merriweather', Georgia, serif;
+  color: #2c3e50;
 }
 
 .blog-content h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: 1.5rem;
-  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+  font-family: var(--font-display), 'Merriweather', serif;
+  color: var(--color-text-main);
 }
 
-.blog-content h2 {
-  font-size: 2rem;
-  font-weight: 600;
-  margin: 2.5rem 0 1.5rem;
-  font-family: 'Roboto Condensed', sans-serif;
+.blog-date {
+  font-family: var(--font-primary), 'Inter', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+  margin-bottom: 2.5rem;
+  font-style: normal; /* Override old italic style */
 }
 
-.blog-content h3 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin: 2rem 0 1.2rem;
-}
-
-/* Content layout improvements */
 .blog-text {
-  max-width: 100%;
+  font-size: 1.05rem;
+  line-height: 1.85;
 }
 
 .blog-text p {
-  margin-bottom: 1.5rem;  /* More spacing between paragraphs */
-  font-size: 1.1rem;
+  margin-bottom: 1.6rem;
+  color: #2d3748;
 }
 
-/* Section spacing */
-.blog-text section {
-  margin: 3rem 0;  /* Increased section spacing */
-  padding: 1.5rem 0;
-  border-bottom: 1px solid #eee;
+.blog-text p a {
+  color: var(--color-link);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(26, 79, 139, 0.2);
+  transition: all 0.2s ease;
 }
 
-/* Image and figure styling */
-.blog-text figure {
+.blog-text p a:hover {
+  color: var(--color-link-hover);
+  border-bottom-color: var(--color-link-hover);
+}
+
+.blog-text h2 {
+  font-family: var(--font-display), 'Merriweather', serif;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--color-text-main);
+  margin-top: 3.5rem;
+  margin-bottom: 1.2rem;
+  letter-spacing: -0.015em;
+  line-height: 1.35;
+}
+
+.blog-text h3 {
+  font-family: var(--font-display), 'Merriweather', serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-text-main);
+  margin-top: 2.5rem;
+  margin-bottom: 0.8rem;
+  letter-spacing: -0.01em;
+  line-height: 1.4;
+}
+
+/* Styled Lists inside reading area */
+.blog-text ol, .blog-text ul {
+  padding-left: 1.75re;
+  margin-bottom: 1.6rem;
+}
+
+.blog-text li {
+  margin-bottom: 0.6rem;
+  color: #2d3748;
+  line-height: 1.75;
+}
+
+/* Callout highlight blocks - clean and aesthetic */
+.blog-text p[data-highlight] {
+  background-color: #f7fafc;
+  border-left: 3px solid var(--color-link);
+  padding: 1.25rem 1.5rem;
   margin: 2rem 0;
-  text-align: center;
+  border-radius: 0 6px 6px 0;
+  position: relative;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #4a5568;
 }
 
-.blog-text figure img {
+.blog-text p[data-highlight]::before {
+  content: attr(data-highlight);
+  display: block;
+  font-family: var(--font-primary), 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  color: var(--color-link);
+  margin-bottom: 0.4rem;
+}
+
+/* Code block adjustments for minimalist theme */
+.blog-text code {
+  background-color: #edf2f7;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+.blog-text pre {
+  background-color: #1a202c;
+  color: #f7fafc;
+  padding: 1.25rem;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+  margin-bottom: 1.6rem;
 }
 
-.blog-text figure figcaption {
-  margin-top: 1rem;
-  font-size: 0.9rem;
-  color: #666;
-  font-style: italic;
+.blog-text pre code {
+  background-color: transparent;
+  padding: 0;
+  color: inherit;
+  font-size: 0.85em;
+}
+
+/* Table of Contents Sidebar styling */
+.blog-sidebar {
+  grid-column: 3;
+  grid-row: 1;
+  position: sticky;
+  top: 120px;
+  align-self: start;
+  height: calc(100vh - 160px);
+  overflow-y: auto;
+  border-left: 1px solid var(--color-border);
+  padding-left: 1.5rem;
+  margin-left: 1rem;
+}
+
+.blog-sidebar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.blog-sidebar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.blog-sidebar::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 2px;
+}
+
+.toc-title {
+  font-family: var(--font-primary), 'Inter', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+  margin-bottom: 1rem;
+}
+
+.toc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.toc-item {
+  margin-bottom: 0.6rem;
+}
+
+.toc-link {
+  font-family: var(--font-primary), 'Inter', sans-serif;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  transition: all 0.25s ease;
+  display: block;
+  line-height: 1.35;
+  font-weight: 400;
+}
+
+.toc-link:hover {
+  color: var(--color-link);
+}
+
+.toc-link.active {
+  color: var(--color-text-main);
+  font-weight: 600;
+}
+
+.toc-sub {
+  list-style: none;
+  padding-left: 0.85rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0px;
+  border-left: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.toc-sub .toc-item {
+  margin-bottom: 0.4rem;
+}
+
+.toc-sub .toc-link {
+  font-size: 0.8rem;
 }
