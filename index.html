@@ -119,6 +119,10 @@
       min-height: 120px;
     }
 
+    #llamia-img img {
+      aspect-ratio: 3753 / 1128;
+    }
+
     #zipp-img img {
       aspect-ratio: 3594 / 1533;
     }
@@ -323,6 +327,8 @@
           <h2 class="heading mb-3">News</h2>
           <div class="news-container">
             <ul class="list-unstyled">
+              <li> <b>2026-08</b> <a href="https://behavior-in-the-wild.github.io/llamia.html"> Internalizing
+                  Heterogeneous Agents in Language Model Reasoning</a> is accepted to <i>EMNLP'2026</i>. </li>
               <li> <b>2026-06</b> <a href="https://behavior-in-the-wild.github.io/zipp.html"> ZIPP: Zero-shot Image
                   Personalization from Personas</a> is accepted to <i>ECCV'2026</i>. </li>
               <li> <b>2026-01</b> Promoted to <b>Research Scientist</b> at <a href="https://adobe-mdsr.github.io/"
@@ -371,6 +377,25 @@
           <h2 class="heading mb-3">Research</h2>
           <div class="project-container">
             <!-- Each project will be a row -->
+            <div class="row mb-4" id="llamia">
+              <div class="col-md-3" id="llamia-img"></div>
+              <div class="col-md-9" id="llamia-txt"></div>
+            </div>
+            <script type="text/javascript">
+              createProjectElement(
+                id = "llamia", {
+                title: "Internalizing Heterogeneous Agents in Language Model Reasoning",
+                paper_url: "https://behavior-in-the-wild.github.io/llamia.html",
+                authors: "Harini S I*, <b>Somesh Singh</b>*, Yaman K Singla, Rajiv Ratn Shah, David Doermann, Balaji Krishnamurthy",
+                conference: "EMNLP'26",
+                image: "figures/llamia.webp",
+                others: null,
+                links: [
+                  { name: "Website", url: "https://behavior-in-the-wild.github.io/llamia.html" }
+                ]
+              });
+            </script>
+
             <div class="row mb-4" id="zipp">
               <div class="col-md-3" id="zipp-img"></div>
               <div class="col-md-9" id="zipp-txt"></div>

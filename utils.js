@@ -1,5 +1,6 @@
 // Image dimensions mapping to prevent layout shifts
 const imageDimensions = {
+  "figures/llamia.webp": { width: 3753, height: 1128 },
   "figures/zipp.webp": { width: 3594, height: 1533 },
   "figures/experigen.png": { width: 2415, height: 770, webp: "figures/experigen.webp" },
   "figures/bllava.jpeg": { width: 1384, height: 666, webp: "figures/bllava.webp" },
@@ -34,7 +35,7 @@ function createProjectElement(id, project) {
   const heightAttr = dims.height ? ` height="${dims.height}"` : '';
 
   // Lazy load images below the fold (first 2 projects are above fold)
-  const loadingAttr = ['zipp', 'experigen'].includes(id) ? '' : ' loading="lazy"';
+  const loadingAttr = ['llamia', 'zipp'].includes(id) ? '' : ' loading="lazy"';
 
   // Use WebP with fallback if available
   let html_img;
